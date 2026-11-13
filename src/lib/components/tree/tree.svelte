@@ -6,8 +6,8 @@
     type TreeOptions,
     type TreeState,
   } from "@ui-sdk/svelte/tree"
-  import type { PartProps } from "@ui-sdk/svelte"
   import { cn } from "$lib/utils/cn"
+  import type { PartPropsPortable } from "$lib/utils/part-render"
   import TreeItems from "./tree-items.svelte"
 
   let {
@@ -21,7 +21,7 @@
     children,
     class: className,
     ...rest
-  }: PartProps<"div", TreeState> & TreeOptions<Mode> = $props()
+  }: PartPropsPortable<"div", TreeState> & TreeOptions<Mode> = $props()
 
   const data = $derived(items ?? (paths ? treeFromPaths(paths) : undefined))
 </script>

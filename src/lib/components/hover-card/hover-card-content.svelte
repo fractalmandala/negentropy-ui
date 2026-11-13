@@ -4,13 +4,13 @@
     type HoverCardContentProps,
     type HoverCardContentState,
   } from "@ui-sdk/svelte/hover-card"
-  import type { PartProps } from "@ui-sdk/svelte"
   import { cn } from "$lib/utils/cn"
+  import type { PartPropsPortable } from "$lib/utils/part-render"
 
   let {
     class: className,
     ...rest
-  }: PartProps<"div", HoverCardContentState<Payload>> & HoverCardContentProps = $props()
+  }: PartPropsPortable<"div", HoverCardContentState<Payload>> & HoverCardContentProps = $props()
 </script>
 
 <HoverCardContentPrimitive

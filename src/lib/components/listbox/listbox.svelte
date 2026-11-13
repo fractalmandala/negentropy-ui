@@ -5,14 +5,14 @@
     type ListboxState,
     type ListboxValue,
   } from "@ui-sdk/svelte/listbox"
-  import type { PartProps } from "@ui-sdk/svelte"
   import { cn } from "$lib/utils/cn"
+  import type { PartPropsPortable } from "$lib/utils/part-render"
 
   let {
     value = $bindable(),
     class: className,
     ...rest
-  }: PartProps<"div", ListboxState> & ListboxOptions<T, Multiple> = $props()
+  }: PartPropsPortable<"div", ListboxState> & ListboxOptions<T, Multiple> = $props()
 </script>
 
 <!-- The adapter types value as unknown, so the binding narrows it back to this list's value. -->

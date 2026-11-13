@@ -19,13 +19,19 @@ pnpm dev        # docs site on http://localhost:5173`
   }
 }`
 
-  const reuseCode = `# in your own SvelteKit + Tailwind v4 app
-pnpm add @ui-sdk/core@0.1.0-beta.1 @ui-sdk/svelte@0.1.0-beta.1 clsx tailwind-merge
+  const npmInstallCode = `# in your own SvelteKit + Tailwind v4 app
+npm install @fractaldesign/negentropy-ui`
 
-# then copy these from negentropy-ui into your $lib:
-#   src/lib/components/   the wrappers you use
-#   src/lib/utils/        cn + defineVariants
-# and paste the @theme inline + :root token block from src/app.css into your app.css`
+  const npmCssCode = `/* src/app.css — processed by Tailwind v4 */
+@import "tailwindcss";
+@import "@fractaldesign/negentropy-ui/theme.css";
+@source "../node_modules/@fractaldesign/negentropy-ui/dist";`
+
+  const npmUseCode = `<script lang="ts">
+  import { Button } from "@fractaldesign/negentropy-ui/button"
+<\/script>
+
+<Button tone="solid">Ship it</Button>`
 
   const buttonCode = `<script lang="ts">
   import { Button } from "$lib/components/button"
@@ -114,11 +120,17 @@ pnpm add @ui-sdk/core@0.1.0-beta.1 @ui-sdk/svelte@0.1.0-beta.1 clsx tailwind-mer
     </p>
     <CodeBlock code={depsCode} lang="json" />
     <p class="text-sm leading-relaxed text-muted">
-      To use the components in your own SvelteKit app instead of running this site, add the
-      same dependencies and copy the wrappers, the <code class="font-mono text-accent">cn</code>
-      helper and the theme tokens across.
+      To use Negentropy in your own SvelteKit + Tailwind v4 app, install it from npm.
+      <code class="font-mono text-accent">svelte ^5</code> is a peer dependency; the ui-sdk
+      pair and the two class-merging helpers come in as dependencies.
     </p>
-    <CodeBlock code={reuseCode} lang="bash" />
+    <CodeBlock code={npmInstallCode} lang="bash" />
+    <p class="text-sm leading-relaxed text-muted">
+      Import the theme and scan the package in your Tailwind-processed CSS so its utility
+      classes are generated, then import a component from its subpath (or the root entry).
+    </p>
+    <CodeBlock code={npmCssCode} lang="css" />
+    <CodeBlock code={npmUseCode} lang="svelte" />
   </Section>
 
   <Section id="first-component" title="Your first component">
