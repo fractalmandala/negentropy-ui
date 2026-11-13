@@ -8,6 +8,9 @@ export default defineConfig({
   plugins: [
 		tailwindcss(), 
 		sveltekit({
+			alias: {
+				'$lib': 'src/lib'
+			},
 			adapter: adapter({
 				// See below for an explanation of these options
 				config: undefined,
