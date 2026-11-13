@@ -5,7 +5,7 @@
     type MenubarState,
   } from "@ui-sdk/svelte/menubar"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

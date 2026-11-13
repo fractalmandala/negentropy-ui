@@ -1,15 +1,15 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo } from "$lib/docs"
-  import { Button } from "$lib/components/button"
-  import { Switch } from "$lib/components/switch"
-  import registry from "$lib/registry.json"
+  import { PageHeader, Section, Demo } from "#lib/docs"
+  import { Button } from "#lib/components/button"
+  import { Switch } from "#lib/components/switch"
+  import registry from "#lib/registry.json"
   import { ArrowRight, BookOpen, SwatchBook, Rocket } from "@lucide/svelte"
 
   let enabled = $state(true)
 
   const tryCode = `<script lang="ts">
-  import { Button } from "$lib/components/button"
-  import { Switch } from "$lib/components/switch"
+  import { Button } from "#lib/components/button"
+  import { Switch } from "#lib/components/switch"
   let enabled = $state(true)
 <\/script>
 
@@ -57,7 +57,7 @@
       real, complete and renders — a script gate enforces that on every build. Try a couple of
       components right here.
     </p>
-    <Demo title="Try it" description="A Button and a controlled Switch, imported from $lib/components." code={tryCode}>
+    <Demo title="Try it" description="A Button and a controlled Switch, imported from #lib/components." code={tryCode}>
       <div class="flex flex-wrap items-center gap-5">
         <Button>Get started</Button>
         <label class="flex items-center gap-3 text-sm text-fg">

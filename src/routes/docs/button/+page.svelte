@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Button } from "#lib/components/button"
   import { ArrowRight, LoaderCircle, Save } from "@lucide/svelte"
 
   const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
-  const installCode = `import { Button } from "$lib/components/button"`
+  const installCode = `import { Button } from "#lib/components/button"`
 
   const usageCode = `<script lang="ts">
-  import { Button } from "$lib/components/button"
+  import { Button } from "#lib/components/button"
 <\/script>
 
 <Button onclick={() => save()}>Save</Button>`

@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Checkbox,
     CheckboxIndicator,
     CheckboxGroup,
     type CheckedState,
-  } from "$lib/components/checkbox"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/checkbox"
+  import { Button } from "#lib/components/button"
   import { Check, Minus } from "@lucide/svelte"
 
-  const installCode = `import { Checkbox, CheckboxIndicator, CheckboxGroup } from "$lib/components/checkbox"`
+  const installCode = `import { Checkbox, CheckboxIndicator, CheckboxGroup } from "#lib/components/checkbox"`
 
   const usageCode = `<script lang="ts">
-  import { Checkbox, CheckboxIndicator } from "$lib/components/checkbox"
+  import { Checkbox, CheckboxIndicator } from "#lib/components/checkbox"
   import { Check } from "@lucide/svelte"
 <\/script>
 
@@ -26,8 +26,8 @@
 </label>`
 
   const controlledCode = `<script lang="ts">
-  import { Checkbox, CheckboxIndicator, type CheckedState } from "$lib/components/checkbox"
-  import { Button } from "$lib/components/button"
+  import { Checkbox, CheckboxIndicator, type CheckedState } from "#lib/components/checkbox"
+  import { Button } from "#lib/components/button"
   import { Check } from "@lucide/svelte"
 
   let checked = $state<CheckedState>(false)
@@ -45,7 +45,7 @@
 <p class="text-sm text-muted">State: {String(checked)}</p>`
 
   const groupCode = `<script lang="ts">
-  import { Checkbox, CheckboxGroup, CheckboxIndicator } from "$lib/components/checkbox"
+  import { Checkbox, CheckboxGroup, CheckboxIndicator } from "#lib/components/checkbox"
   import { Check, Minus } from "@lucide/svelte"
 
   const toppings = [
@@ -124,8 +124,8 @@
 </label>`
 
   const formCode = `<script lang="ts">
-  import { Checkbox, CheckboxIndicator } from "$lib/components/checkbox"
-  import { Button } from "$lib/components/button"
+  import { Checkbox, CheckboxIndicator } from "#lib/components/checkbox"
+  import { Button } from "#lib/components/button"
   import { Check } from "@lucide/svelte"
 
   let submitted = $state("")

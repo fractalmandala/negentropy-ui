@@ -1,8 +1,8 @@
 <script lang="ts">
   import { PopoverClose as PopoverClosePrimitive } from "@ui-sdk/svelte/popover"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "inline-flex h-9 items-center justify-center gap-2 rounded-md px-4 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0",

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Timeline,
     TimelineItem,
@@ -10,20 +10,20 @@
     TimelineDescription,
     createTimelineController,
     type TimelineStatus,
-  } from "$lib/components/timeline"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/timeline"
+  import { Button } from "#lib/components/button"
   import { Check } from "@lucide/svelte"
 
   const installCode = `import {
   Timeline, TimelineItem, TimelineMarker, TimelineConnector,
   TimelineTitle, TimelineTime, TimelineDescription,
-} from "$lib/components/timeline"`
+} from "#lib/components/timeline"`
 
   const usageCode = `<script lang="ts">
   import {
     Timeline, TimelineItem, TimelineMarker, TimelineConnector,
     TimelineTitle, TimelineTime, TimelineDescription,
-  } from "$lib/components/timeline"
+  } from "#lib/components/timeline"
 <\/script>
 
 <Timeline aria-label="Activity">
@@ -121,7 +121,7 @@
 
   const statusCode = `<script lang="ts">
   import { Check } from "@lucide/svelte"
-  import { createTimelineController, type TimelineStatus } from "$lib/components/timeline"
+  import { createTimelineController, type TimelineStatus } from "#lib/components/timeline"
 
   const controller = createTimelineController()
   const steps: { value: string; title: string; status: TimelineStatus }[] = [

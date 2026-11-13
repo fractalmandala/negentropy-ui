@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../app.css"
   import { page } from "$app/state"
-  import registry from "$lib/registry.json"
+  import registry from "#lib/registry.json"
   import { Menu, X, Moon, Sun, Search } from "@lucide/svelte"
 
   let { children } = $props()

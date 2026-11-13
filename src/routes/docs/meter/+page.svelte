@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "$lib/components/meter"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "#lib/components/meter"
 
-  const installCode = `import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "$lib/components/meter"`
+  const installCode = `import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "#lib/components/meter"`
 
   const usageCode = `<script lang="ts">
-  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "$lib/components/meter"
+  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "#lib/components/meter"
 <\/script>
 
 <Meter value={68}>
@@ -17,7 +17,7 @@
 </Meter>`
 
   const boundsCode = `<script lang="ts">
-  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "$lib/components/meter"
+  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "#lib/components/meter"
 <\/script>
 
 <Meter value={720} min={300} max={850} format={{ style: "decimal" }}>
@@ -29,7 +29,7 @@
 </Meter>`
 
   const tonesCode = `<script lang="ts">
-  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "$lib/components/meter"
+  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "#lib/components/meter"
 <\/script>
 
 <div class="space-y-4">
@@ -56,7 +56,7 @@
 </div>`
 
   const valueLabelCode = `<script lang="ts">
-  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "$lib/components/meter"
+  import { Meter, MeterLabel, MeterValue, MeterTrack, MeterIndicator } from "#lib/components/meter"
 <\/script>
 
 <Meter

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Waterfall,
     WaterfallHeaderRow,
@@ -16,18 +16,18 @@
     visibleWaterfallRows,
     type WaterfallAxisState,
     type WaterfallData,
-  } from "$lib/components/waterfall"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/waterfall"
+  import { Button } from "#lib/components/button"
   import { ChevronRight } from "@lucide/svelte"
 
   const installCode = `import {
   Waterfall, WaterfallHeaderRow, WaterfallColumnHeader, WaterfallAxis,
   WaterfallTick, WaterfallMark, WaterfallRow, WaterfallRowHeader,
   WaterfallIndicator, WaterfallCell, WaterfallBar,
-} from "$lib/components/waterfall"`
+} from "#lib/components/waterfall"`
 
   const usageCode = `<script lang="ts">
-  import { Waterfall, WaterfallBar, WaterfallRow, WaterfallRowHeader, type WaterfallData } from "$lib/components/waterfall"
+  import { Waterfall, WaterfallBar, WaterfallRow, WaterfallRowHeader, type WaterfallData } from "#lib/components/waterfall"
 
   const requests: WaterfallData = [
     { value: "document", label: "/", start: 0, duration: 182 },
@@ -125,7 +125,7 @@
 
   const traceCode = `<script lang="ts">
   import { ChevronRight } from "@lucide/svelte"
-  import { createWaterfallController, visibleWaterfallRows } from "$lib/components/waterfall"
+  import { createWaterfallController, visibleWaterfallRows } from "#lib/components/waterfall"
 
   const spans = createWaterfallController()
   let expanded = $state(["checkout"])

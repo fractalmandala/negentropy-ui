@@ -4,7 +4,7 @@
     type SegmentedControlIndicatorState,
   } from "@ui-sdk/svelte/segmented-control"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"span", SegmentedControlIndicatorState> = $props()
 </script>

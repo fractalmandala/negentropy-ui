@@ -5,7 +5,7 @@
     type ResizablePanelState,
   } from "@ui-sdk/svelte/resizable"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

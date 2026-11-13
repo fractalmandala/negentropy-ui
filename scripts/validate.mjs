@@ -98,8 +98,8 @@ for (const slug of targets) {
     if (re.test(page)) fail(slug, `docs page contains banned marker ${re}`)
   }
 
-  if (!page.includes("$lib/components/" + slug) && !page.includes("$lib/components")) {
-    fail(slug, "docs page does not import the component from $lib/components")
+  if (!page.includes("#lib/components/" + slug) && !page.includes("#lib/components")) {
+    fail(slug, "docs page does not import the component from #lib/components")
   }
 }
 

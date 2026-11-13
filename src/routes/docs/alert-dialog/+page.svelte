@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     AlertDialog,
     AlertDialogTrigger,
@@ -12,21 +12,21 @@
     AlertDialogClose,
     AlertDialogShortcut,
     createConfirm,
-  } from "$lib/components/alert-dialog"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/alert-dialog"
+  import { Button } from "#lib/components/button"
   import { Trash2 } from "@lucide/svelte"
 
   const installCode = `import {
   AlertDialog, AlertDialogTrigger, AlertDialogBackdrop, AlertDialogContent,
   AlertDialogTitle, AlertDialogDescription, AlertDialogCancel, AlertDialogAction,
   AlertDialogClose, AlertDialogShortcut,
-} from "$lib/components/alert-dialog"`
+} from "#lib/components/alert-dialog"`
 
   const usageCode = `<script lang="ts">
   import {
     AlertDialog, AlertDialogTrigger, AlertDialogBackdrop, AlertDialogContent,
     AlertDialogTitle, AlertDialogDescription, AlertDialogCancel, AlertDialogAction,
-  } from "$lib/components/alert-dialog"
+  } from "#lib/components/alert-dialog"
 <\/script>
 
 <AlertDialog>
@@ -132,7 +132,7 @@
 </AlertDialog>`
 
   const confirmCode = `<script lang="ts">
-  import { createConfirm } from "$lib/components/alert-dialog"
+  import { createConfirm } from "#lib/components/alert-dialog"
 
   const confirmDelete = createConfirm<{ name: string }>()
   let projects = $state(["Acme", "Globex", "Initech"])

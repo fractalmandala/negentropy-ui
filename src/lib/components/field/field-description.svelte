@@ -4,7 +4,7 @@
     type FieldDescriptionState,
   } from "@ui-sdk/svelte/field"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"p", FieldDescriptionState> = $props()
 </script>

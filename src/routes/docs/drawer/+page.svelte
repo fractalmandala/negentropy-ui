@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Drawer,
     DrawerTrigger,
@@ -12,20 +12,20 @@
     DrawerShortcut,
     DrawerOutlet,
     type SnapPoint,
-  } from "$lib/components/drawer"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/drawer"
+  import { Button } from "#lib/components/button"
   import { Minus, Plus, SlidersHorizontal } from "@lucide/svelte"
 
   const installCode = `import {
   Drawer, DrawerTrigger, DrawerBackdrop, DrawerContent, DrawerHandle,
   DrawerTitle, DrawerDescription, DrawerClose, DrawerShortcut, DrawerOutlet,
-} from "$lib/components/drawer"`
+} from "#lib/components/drawer"`
 
   const usageCode = `<script lang="ts">
   import {
     Drawer, DrawerTrigger, DrawerBackdrop, DrawerContent,
     DrawerTitle, DrawerDescription, DrawerClose, DrawerShortcut,
-  } from "$lib/components/drawer"
+  } from "#lib/components/drawer"
   import { Minus, Plus, SlidersHorizontal } from "@lucide/svelte"
 
   let calories = $state(350)
@@ -122,7 +122,7 @@
 </Drawer>`
 
   const controlledCode = `<script lang="ts">
-  import type { SnapPoint } from "$lib/components/drawer"
+  import type { SnapPoint } from "#lib/components/drawer"
 
   let open = $state(false)
   let snapPoint = $state<SnapPoint | null>(0.5)

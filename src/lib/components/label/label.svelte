@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Label as LabelPrimitive, type LabelOptions } from "@ui-sdk/svelte/label"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"label"> & LabelOptions = $props()
 </script>

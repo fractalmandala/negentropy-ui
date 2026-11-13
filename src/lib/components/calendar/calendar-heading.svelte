@@ -4,7 +4,7 @@
     type CalendarHeadingState,
   } from "@ui-sdk/svelte/calendar"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

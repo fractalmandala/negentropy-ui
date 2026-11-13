@@ -1,8 +1,8 @@
 <script lang="ts">
   import { PaginationLink as PaginationLinkPrimitive, type PaginationLinkProps, type PaginationLinkState } from "@ui-sdk/svelte/pagination"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "inline-flex h-9 min-w-9 items-center justify-center rounded-md px-2 text-sm font-medium tabular-nums transition-colors",

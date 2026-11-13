@@ -5,7 +5,7 @@
     type SegmentedControlState,
   } from "@ui-sdk/svelte/segmented-control"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     value = $bindable(),

@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock } from "$lib/docs"
-  import { Button } from "$lib/components/button"
-  import { Switch, SwitchThumb } from "$lib/components/switch"
-  import { Tabs, TabsList, TabsTab, TabsPanel } from "$lib/components/tabs"
+  import { PageHeader, Section, Demo, CodeBlock } from "#lib/docs"
+  import { Button } from "#lib/components/button"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
+  import { Tabs, TabsList, TabsTab, TabsPanel } from "#lib/components/tabs"
   import {
     Dialog,
     DialogBackdrop,
@@ -10,7 +10,7 @@
     DialogTitle,
     DialogDescription,
     DialogClose,
-  } from "$lib/components/dialog"
+  } from "#lib/components/dialog"
   import { Moon, Sun } from "@lucide/svelte"
 
   let tab = $state("account")
@@ -18,7 +18,7 @@
   let dark = $state(false)
 
   const partsCode = `<script lang="ts">
-  import { Tabs, TabsList, TabsTab, TabsPanel } from "$lib/components/tabs"
+  import { Tabs, TabsList, TabsTab, TabsPanel } from "#lib/components/tabs"
 <\/script>
 
 <Tabs defaultValue="account">
@@ -43,7 +43,7 @@
 </Button>`
 
   const childrenCode = `<script lang="ts">
-  import { Switch, SwitchThumb } from "$lib/components/switch"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
   import { Moon, Sun } from "@lucide/svelte"
 <\/script>
 
@@ -56,7 +56,7 @@
 </Switch>`
 
   const controlledTabsCode = `<script lang="ts">
-  import { Tabs, TabsList, TabsTab, TabsPanel } from "$lib/components/tabs"
+  import { Tabs, TabsList, TabsTab, TabsPanel } from "#lib/components/tabs"
   let tab = $state("account")
 <\/script>
 
@@ -71,8 +71,8 @@
 <p>Selected: {tab}</p>`
 
   const controlledDialogCode = `<script lang="ts">
-  import { Dialog, DialogBackdrop, DialogContent, DialogTitle, DialogDescription, DialogClose } from "$lib/components/dialog"
-  import { Button } from "$lib/components/button"
+  import { Dialog, DialogBackdrop, DialogContent, DialogTitle, DialogDescription, DialogClose } from "#lib/components/dialog"
+  import { Button } from "#lib/components/button"
   let open = $state(false)
 <\/script>
 
@@ -119,7 +119,7 @@
   <Section id="overview" title="The shape">
     <p class="text-sm leading-relaxed text-muted">
       A component is a <span class="text-fg">Root</span> plus its <span class="text-fg">Parts</span>,
-      imported together from <code class="font-mono text-accent">$lib/components/&lt;name&gt;</code>.
+      imported together from <code class="font-mono text-accent">#lib/components/&lt;name&gt;</code>.
       The wrapper forwards every prop to the ui-sdk part and adds classes and variant props — it
       never reimplements behavior. Anything the ui-sdk part accepts (HTML attributes, callbacks,
       snippets) passes straight through.

@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock } from "$lib/docs"
-  import { Button } from "$lib/components/button"
-  import { Switch } from "$lib/components/switch"
+  import { PageHeader, Section, Demo, CodeBlock } from "#lib/docs"
+  import { Button } from "#lib/components/button"
+  import { Switch } from "#lib/components/switch"
   import { ArrowRight, Download, Rocket, SwatchBook } from "@lucide/svelte"
 
   let notifications = $state(true)
@@ -34,7 +34,7 @@ npm install @fractaldesign/negentropy-ui`
 <Button tone="solid">Ship it</Button>`
 
   const buttonCode = `<script lang="ts">
-  import { Button } from "$lib/components/button"
+  import { Button } from "#lib/components/button"
 <\/script>
 
 <Button>Save changes</Button>
@@ -42,7 +42,7 @@ npm install @fractaldesign/negentropy-ui`
 <Button tone="ghost">Skip</Button>`
 
   const switchCode = `<script lang="ts">
-  import { Switch } from "$lib/components/switch"
+  import { Switch } from "#lib/components/switch"
   let notifications = $state(true)
 <\/script>
 
@@ -135,10 +135,10 @@ npm install @fractaldesign/negentropy-ui`
 
   <Section id="first-component" title="Your first component">
     <p class="text-sm leading-relaxed text-muted">
-      Import a wrapper from <code class="font-mono text-accent">$lib/components/&lt;name&gt;</code>
+      Import a wrapper from <code class="font-mono text-accent">#lib/components/&lt;name&gt;</code>
       and compose it. Here is a Button in three tones.
     </p>
-    <Demo title="Button" description="Import from $lib/components/button and render. Tones are a wrapper prop; behavior comes from ui-sdk." code={buttonCode}>
+    <Demo title="Button" description="Import from #lib/components/button and render. Tones are a wrapper prop; behavior comes from ui-sdk." code={buttonCode}>
       <div class="flex flex-wrap items-center gap-3">
         <Button>Save changes</Button>
         <Button tone="outline">Cancel</Button>

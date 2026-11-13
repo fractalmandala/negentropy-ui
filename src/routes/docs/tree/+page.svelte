@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Tree,
     TreeItems,
@@ -12,8 +12,8 @@
     treeFromPaths,
     type TreeAnnouncement,
     type TreeItemData,
-  } from "$lib/components/tree"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/tree"
+  import { Button } from "#lib/components/button"
   import {
     ChevronRight,
     File,
@@ -28,7 +28,7 @@
   TreeGroup,
   TreeItemLabel,
   TreeItemIndicator,
-} from "$lib/components/tree"`
+} from "#lib/components/tree"`
 
   const usageCode = `<script lang="ts">
   import { ChevronRight, File, Folder } from "@lucide/svelte"
@@ -39,7 +39,7 @@
     TreeItemLabel,
     TreeItemIndicator,
     type TreeItemData,
-  } from "$lib/components/tree"
+  } from "#lib/components/tree"
 
   const files: TreeItemData[] = [
     { value: "app", label: "app", children: [
@@ -82,7 +82,7 @@
 </Tree>`
 
   const dataCode = `<script lang="ts">
-  import { Tree, type TreeItemData } from "$lib/components/tree"
+  import { Tree, type TreeItemData } from "#lib/components/tree"
 
   const groceries: TreeItemData[] = [
     { value: "fruit", label: "Fruit", children: [
@@ -101,7 +101,7 @@
 <Tree aria-label="Groceries" items={groceries} defaultExpanded={["fruit"]} />`
 
   const checkableCode = `<script lang="ts">
-  import { Tree, TreeItems, type TreeItemData } from "$lib/components/tree"
+  import { Tree, TreeItems, type TreeItemData } from "#lib/components/tree"
 
   const stack: TreeItemData[] = [
     { value: "frontend", label: "Frontend", children: [
@@ -135,7 +135,7 @@
 </Tree>`
 
   const multipleCode = `<script lang="ts">
-  import { Tree, TreeItems, type TreeItemData } from "$lib/components/tree"
+  import { Tree, TreeItems, type TreeItemData } from "#lib/components/tree"
 
   const folders: TreeItemData[] = [
     { value: "inbox", label: "Inbox", children: [
@@ -176,7 +176,7 @@
     TreeItemIndicator,
     treeFromPaths,
     type TreeItemData,
-  } from "$lib/components/tree"
+  } from "#lib/components/tree"
 
   const paths = [
     "src/index.ts",
@@ -233,8 +233,8 @@
 </Tree>`
 
   const controllerCode = `<script lang="ts">
-  import { Tree, TreeItems, createTreeController, type TreeItemData } from "$lib/components/tree"
-  import { Button } from "$lib/components/button"
+  import { Tree, TreeItems, createTreeController, type TreeItemData } from "#lib/components/tree"
+  import { Button } from "#lib/components/button"
 
   const sections: TreeItemData[] = [
     { value: "account", label: "Account", children: [
@@ -280,7 +280,7 @@
     TreeItemLabel,
     TreeItemIndicator,
     type TreeAnnouncement,
-  } from "$lib/components/tree"
+  } from "#lib/components/tree"
 
   type Node = { value: string; label: string; branch?: boolean }
 
@@ -351,8 +351,8 @@
 </Tree>`
 
   const disabledCode = `<script lang="ts">
-  import { Tree, type TreeItemData } from "$lib/components/tree"
-  import { Button } from "$lib/components/button"
+  import { Tree, type TreeItemData } from "#lib/components/tree"
+  import { Button } from "#lib/components/button"
 
   const groceries: TreeItemData[] = [
     { value: "fruit", label: "Fruit", children: [
@@ -937,7 +937,7 @@
       ]}
     />
     <PropsTable
-      caption="Re-exports from $lib/components/tree"
+      caption="Re-exports from #lib/components/tree"
       rows={[
         { name: "createTreeController", type: "() => TreeController", description: "Creates the controller you pass as the controller prop." },
         { name: "treeFromPaths", type: "(paths: readonly string[]) => TreeItemData[]", description: "The same data the paths prop builds, for rendering the rows yourself." },

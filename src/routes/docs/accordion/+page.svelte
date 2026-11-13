@@ -1,23 +1,23 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Accordion,
     AccordionItem,
     AccordionHeader,
     AccordionTrigger,
     AccordionPanel,
-  } from "$lib/components/accordion"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/accordion"
+  import { Button } from "#lib/components/button"
   import { ChevronDown } from "@lucide/svelte"
 
   const installCode = `import {
   Accordion, AccordionItem, AccordionHeader, AccordionTrigger, AccordionPanel,
-} from "$lib/components/accordion"`
+} from "#lib/components/accordion"`
 
   const usageCode = `<script lang="ts">
   import {
     Accordion, AccordionItem, AccordionHeader, AccordionTrigger, AccordionPanel,
-  } from "$lib/components/accordion"
+  } from "#lib/components/accordion"
   import { ChevronDown } from "@lucide/svelte"
 <\/script>
 

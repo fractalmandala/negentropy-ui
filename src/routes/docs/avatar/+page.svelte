@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Avatar, AvatarImage, AvatarFallback, type AvatarLoadingStatus } from "$lib/components/avatar"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Avatar, AvatarImage, AvatarFallback, type AvatarLoadingStatus } from "#lib/components/avatar"
   import { User } from "@lucide/svelte"
 
   const ada =
@@ -12,10 +12,10 @@
   // Intentionally undecodable, so the image errors and the fallback stays.
   const missing = "data:image/png;base64,broken"
 
-  const installCode = `import { Avatar, AvatarImage, AvatarFallback } from "$lib/components/avatar"`
+  const installCode = `import { Avatar, AvatarImage, AvatarFallback } from "#lib/components/avatar"`
 
   const usageCode = `<script lang="ts">
-  import { Avatar, AvatarImage, AvatarFallback } from "$lib/components/avatar"
+  import { Avatar, AvatarImage, AvatarFallback } from "#lib/components/avatar"
 
   const ada =
     "data:image/svg+xml," +
@@ -35,7 +35,7 @@
 <Avatar size="xl"><AvatarFallback>AL</AvatarFallback></Avatar>`
 
   const statusCode = `<script lang="ts">
-  import type { AvatarLoadingStatus } from "$lib/components/avatar"
+  import type { AvatarLoadingStatus } from "#lib/components/avatar"
   let status = $state<AvatarLoadingStatus>("idle")
   const missing = "data:image/png;base64,broken"
 <\/script>

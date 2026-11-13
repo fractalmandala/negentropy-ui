@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Carousel,
     CarouselViewport,
@@ -10,8 +10,8 @@
     CarouselIndicatorGroup,
     CarouselIndicator,
     CarouselPlayToggle,
-  } from "$lib/components/carousel"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/carousel"
+  import { Button } from "#lib/components/button"
   import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, Play, Pause } from "@lucide/svelte"
 
   const slides = [
@@ -27,14 +27,14 @@
   Carousel, CarouselViewport, CarouselContent, CarouselItem,
   CarouselPrevious, CarouselNext, CarouselIndicatorGroup,
   CarouselIndicator, CarouselPlayToggle,
-} from "$lib/components/carousel"`
+} from "#lib/components/carousel"`
 
   const usageCode = `<script lang="ts">
   import { ChevronLeft, ChevronRight } from "@lucide/svelte"
   import {
     Carousel, CarouselViewport, CarouselContent, CarouselItem,
     CarouselPrevious, CarouselNext,
-  } from "$lib/components/carousel"
+  } from "#lib/components/carousel"
 
   const slides = [
     { name: "Dunes", tone: "bg-accent-soft text-accent" },

@@ -5,8 +5,8 @@
     type SeparatorState,
   } from "@ui-sdk/svelte/separator"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:w-px data-[orientation=vertical]:self-stretch",

@@ -5,8 +5,8 @@
     type CommandState,
   } from "@ui-sdk/svelte/command"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "flex w-full flex-col overflow-hidden text-fg has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-ring",

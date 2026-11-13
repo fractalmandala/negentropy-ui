@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Calendar,
     CalendarPrevious,
@@ -14,20 +14,20 @@
     CalendarDay,
     createCalendarController,
     type CalendarValue,
-  } from "$lib/components/calendar"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/calendar"
+  import { Button } from "#lib/components/button"
   import { ChevronLeft, ChevronRight } from "@lucide/svelte"
 
   const installCode = `import {
   Calendar, CalendarPrevious, CalendarHeading, CalendarNext,
   CalendarGrid, CalendarWeekdays, CalendarWeekday, CalendarWeeks, CalendarDay,
-} from "$lib/components/calendar"`
+} from "#lib/components/calendar"`
 
   const usageCode = `<script lang="ts">
   import {
     Calendar, CalendarPrevious, CalendarHeading, CalendarNext,
     CalendarGrid, CalendarWeekdays, CalendarWeekday, CalendarWeeks, CalendarDay,
-  } from "$lib/components/calendar"
+  } from "#lib/components/calendar"
   import { ChevronLeft, ChevronRight } from "@lucide/svelte"
 <\/script>
 
@@ -114,7 +114,7 @@
 <p class="text-sm text-muted">{dates.length} dates selected</p>`
 
   const controlledCode = `<script lang="ts">
-  import type { CalendarValue } from "$lib/components/calendar"
+  import type { CalendarValue } from "#lib/components/calendar"
   let value = $state<CalendarValue>("2026-10-16")
   let month = $state("2026-10")
 <\/script>
@@ -169,7 +169,7 @@
 </Calendar>`
 
   const controllerCode = `<script lang="ts">
-  import { createCalendarController } from "$lib/components/calendar"
+  import { createCalendarController } from "#lib/components/calendar"
   const calendar = createCalendarController()
 
   function select(date: string) {

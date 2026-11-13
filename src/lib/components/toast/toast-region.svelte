@@ -1,6 +1,6 @@
 <script lang="ts">
   import { ToastRegion as ToastRegionPrimitive, type ToastRegionProps } from "@ui-sdk/svelte/toast"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

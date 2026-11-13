@@ -1,7 +1,7 @@
 <script lang="ts">
   import { TokenInputTokenRemove as TokenInputTokenRemovePrimitive } from "@ui-sdk/svelte/token-input"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"span"> = $props()
 </script>

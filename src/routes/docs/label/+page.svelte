@@ -1,15 +1,15 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Label } from "$lib/components/label"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Label } from "#lib/components/label"
 
   const inputClass =
     "h-9 w-full rounded-md border border-line bg-surface px-3 text-sm text-fg transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring disabled:opacity-50"
   const choiceClass = "size-4 accent-accent"
 
-  const installCode = `import { Label } from "$lib/components/label"`
+  const installCode = `import { Label } from "#lib/components/label"`
 
   const usageCode = `<script lang="ts">
-  import { Label } from "$lib/components/label"
+  import { Label } from "#lib/components/label"
 <\/script>
 
 <div class="flex w-full max-w-xs flex-col gap-2">

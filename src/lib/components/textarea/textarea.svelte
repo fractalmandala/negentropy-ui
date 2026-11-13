@@ -6,8 +6,8 @@
     type TextareaState,
   } from "@ui-sdk/svelte/textarea"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "w-full min-w-0 rounded-md border border-line bg-surface text-fg transition-colors placeholder:text-faint focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring disabled:cursor-not-allowed disabled:opacity-50 data-[readonly]:cursor-default data-[invalid]:border-danger",

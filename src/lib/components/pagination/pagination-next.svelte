@@ -1,7 +1,7 @@
 <script lang="ts">
   import { PaginationNext as PaginationNextPrimitive, type PaginationStepState } from "@ui-sdk/svelte/pagination"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"a", PaginationStepState> = $props()
 </script>

@@ -1,23 +1,23 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     OTPInput,
     OTPInputGroup,
     OTPInputSlot,
     OTPInputSeparator,
     createOTPInputController,
-  } from "$lib/components/otp-input"
-  import { Field, FieldLabel, FieldError, FieldDescription } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/otp-input"
+  import { Field, FieldLabel, FieldError, FieldDescription } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
   import { Minus } from "@lucide/svelte"
 
   const installCode = `import {
   OTPInput, OTPInputGroup, OTPInputSlot, OTPInputSeparator,
   createOTPInputController,
-} from "$lib/components/otp-input"`
+} from "#lib/components/otp-input"`
 
   const usageCode = `<script lang="ts">
-  import { OTPInput, OTPInputGroup, OTPInputSlot } from "$lib/components/otp-input"
+  import { OTPInput, OTPInputGroup, OTPInputSlot } from "#lib/components/otp-input"
 <\/script>
 
 <OTPInput maxLength={4} aria-label="Verification code">
@@ -29,10 +29,10 @@
 </OTPInput>`
 
   const basicCode = `<script lang="ts">
-  import { Field, FieldLabel } from "$lib/components/field"
+  import { Field, FieldLabel } from "#lib/components/field"
   import {
     OTPInput, OTPInputGroup, OTPInputSeparator, OTPInputSlot,
-  } from "$lib/components/otp-input"
+  } from "#lib/components/otp-input"
   import { Minus } from "@lucide/svelte"
 <\/script>
 
@@ -50,8 +50,8 @@
 </Field>`
 
   const controlledCode = `<script lang="ts">
-  import { OTPInput, OTPInputGroup, OTPInputSlot, createOTPInputController } from "$lib/components/otp-input"
-  import { Button } from "$lib/components/button"
+  import { OTPInput, OTPInputGroup, OTPInputSlot, createOTPInputController } from "#lib/components/otp-input"
+  import { Button } from "#lib/components/button"
 
   let code = $state("")
   const otp = createOTPInputController()
@@ -72,10 +72,10 @@
 </div>`
 
   const alphanumericCode = `<script lang="ts">
-  import { Field, FieldLabel, FieldDescription } from "$lib/components/field"
+  import { Field, FieldLabel, FieldDescription } from "#lib/components/field"
   import {
     OTPInput, OTPInputGroup, OTPInputSeparator, OTPInputSlot,
-  } from "$lib/components/otp-input"
+  } from "#lib/components/otp-input"
   import { Minus } from "@lucide/svelte"
 <\/script>
 
@@ -94,7 +94,7 @@
 </Field>`
 
   const completeCode = `<script lang="ts">
-  import { OTPInput, OTPInputGroup, OTPInputSlot } from "$lib/components/otp-input"
+  import { OTPInput, OTPInputGroup, OTPInputSlot } from "#lib/components/otp-input"
 
   let committed = $state("")
 <\/script>
@@ -148,8 +148,8 @@
 </div>`
 
   const invalidCode = `<script lang="ts">
-  import { Field, FieldLabel, FieldError } from "$lib/components/field"
-  import { OTPInput, OTPInputGroup, OTPInputSlot } from "$lib/components/otp-input"
+  import { Field, FieldLabel, FieldError } from "#lib/components/field"
+  import { OTPInput, OTPInputGroup, OTPInputSlot } from "#lib/components/otp-input"
 
   let expired = $state(true)
 <\/script>

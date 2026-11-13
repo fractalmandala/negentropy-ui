@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Toolbar,
     ToolbarButton,
@@ -8,8 +8,8 @@
     ToolbarLink,
     ToolbarSeparator,
     createToolbarController,
-  } from "$lib/components/toolbar"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/toolbar"
+  import { Button } from "#lib/components/button"
   import {
     Bold,
     Italic,
@@ -45,13 +45,13 @@
 
   const installCode = `import {
   Toolbar, ToolbarButton, ToolbarGroup, ToolbarInput, ToolbarLink, ToolbarSeparator,
-} from "$lib/components/toolbar"`
+} from "#lib/components/toolbar"`
 
   const usageCode = `<script lang="ts">
   import { Bold, Italic, Underline, Link } from "@lucide/svelte"
   import {
     Toolbar, ToolbarButton, ToolbarSeparator,
-  } from "$lib/components/toolbar"
+  } from "#lib/components/toolbar"
 
   const formats = [
     { label: "Bold", icon: Bold },
@@ -90,7 +90,7 @@
   import { Scissors, Copy, Clipboard, Undo2, Redo2 } from "@lucide/svelte"
   import {
     Toolbar, ToolbarButton, ToolbarGroup, ToolbarSeparator,
-  } from "$lib/components/toolbar"
+  } from "#lib/components/toolbar"
 
   let log = $state("Nothing pressed yet")
 <\/script>
@@ -119,7 +119,7 @@
   import { Search } from "@lucide/svelte"
   import {
     Toolbar, ToolbarButton, ToolbarInput, ToolbarSeparator,
-  } from "$lib/components/toolbar"
+  } from "#lib/components/toolbar"
 
   let query = $state("")
 
@@ -141,7 +141,7 @@
   const linksCode = `<script lang="ts">
   import {
     Toolbar, ToolbarButton, ToolbarLink, ToolbarSeparator,
-  } from "$lib/components/toolbar"
+  } from "#lib/components/toolbar"
 
   let log = $state("Nothing pressed yet")
 <\/script>
@@ -158,7 +158,7 @@
   import { MousePointer2, Pencil, Square, Type, Trash2 } from "@lucide/svelte"
   import {
     Toolbar, ToolbarButton, ToolbarSeparator,
-  } from "$lib/components/toolbar"
+  } from "#lib/components/toolbar"
 
   const tools = [
     { value: "select", label: "Select", icon: MousePointer2 },
@@ -201,8 +201,8 @@
 
   const controllerCode = `<script lang="ts">
   import { Bold, Italic, Link } from "@lucide/svelte"
-  import { createToolbarController, Toolbar, ToolbarButton } from "$lib/components/toolbar"
-  import { Button } from "$lib/components/button"
+  import { createToolbarController, Toolbar, ToolbarButton } from "#lib/components/toolbar"
+  import { Button } from "#lib/components/button"
 
   const editor = createToolbarController()
   let note = $state("")

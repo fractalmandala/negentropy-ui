@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     TimeInput,
     TimeInputSegment,
     createTimeInputController,
-  } from "$lib/components/time-input"
-  import { Field, FieldLabel, FieldDescription, FieldError } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/time-input"
+  import { Field, FieldLabel, FieldDescription, FieldError } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
 
-  const installCode = `import { TimeInput, TimeInputSegment } from "$lib/components/time-input"`
+  const installCode = `import { TimeInput, TimeInputSegment } from "#lib/components/time-input"`
 
   const usageCode = `<script lang="ts">
-  import { TimeInput } from "$lib/components/time-input"
-  import { Field, FieldLabel } from "$lib/components/field"
+  import { TimeInput } from "#lib/components/time-input"
+  import { Field, FieldLabel } from "#lib/components/field"
 <\/script>
 
 <Field>
@@ -47,7 +47,7 @@
 <p class="text-sm text-muted">value: {value ?? "null"}</p>`
 
   const controllerCode = `<script lang="ts">
-  import { createTimeInputController } from "$lib/components/time-input"
+  import { createTimeInputController } from "#lib/components/time-input"
   const opens = createTimeInputController()
 <\/script>
 

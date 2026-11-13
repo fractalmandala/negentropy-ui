@@ -7,7 +7,7 @@
     type ISOMonth,
   } from "@ui-sdk/svelte/date-picker"
   import type { PartProps, PopupContainer } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   const field = "[&>div:has(>[data-slot=date-picker-input])]"
 

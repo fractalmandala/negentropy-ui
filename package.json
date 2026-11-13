@@ -5,6 +5,10 @@
   "license": "MIT",
   "author": "Fractalmandala",
   "type": "module",
+  "imports": {
+    "#lib": "./src/lib",
+    "#lib/*": "./src/lib/*"
+  },
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [

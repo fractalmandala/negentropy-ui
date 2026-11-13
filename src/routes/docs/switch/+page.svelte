@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Switch, SwitchThumb } from "$lib/components/switch"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
+  import { Button } from "#lib/components/button"
   import { Moon, Sun, LoaderCircle } from "@lucide/svelte"
 
-  const installCode = `import { Switch, SwitchThumb } from "$lib/components/switch"`
+  const installCode = `import { Switch, SwitchThumb } from "#lib/components/switch"`
 
   const usageCode = `<script lang="ts">
-  import { Switch, SwitchThumb } from "$lib/components/switch"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
 <\/script>
 
 <label class="flex cursor-pointer items-center gap-2.5 text-sm text-fg">
@@ -18,8 +18,8 @@
 </label>`
 
   const controlledCode = `<script lang="ts">
-  import { Switch, SwitchThumb } from "$lib/components/switch"
-  import { Button } from "$lib/components/button"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
+  import { Button } from "#lib/components/button"
 
   let checked = $state(true)
 <\/script>
@@ -60,7 +60,7 @@
 </label>`
 
   const iconsCode = `<script lang="ts">
-  import { Switch, SwitchThumb } from "$lib/components/switch"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
   import { Moon, Sun } from "@lucide/svelte"
 <\/script>
 
@@ -76,8 +76,8 @@
 </label>`
 
   const formCode = `<script lang="ts">
-  import { Switch, SwitchThumb } from "$lib/components/switch"
-  import { Button } from "$lib/components/button"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
+  import { Button } from "#lib/components/button"
 
   let submitted = $state("")
 
@@ -106,7 +106,7 @@
 
   const asyncCode = `<script lang="ts">
   import { LoaderCircle } from "@lucide/svelte"
-  import { Switch, SwitchThumb } from "$lib/components/switch"
+  import { Switch, SwitchThumb } from "#lib/components/switch"
 
   let saving = $state(false)
 

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Slider as SliderPrimitive, type SliderOptions, type SliderState } from "@ui-sdk/svelte/slider"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { value = $bindable(), class: className, ...rest }:
     PartProps<"div", SliderState> & SliderOptions = $props()

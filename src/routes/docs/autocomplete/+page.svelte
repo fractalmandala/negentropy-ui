@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Autocomplete,
     AutocompleteLabel,
@@ -17,8 +17,8 @@
     AutocompleteEmpty,
     AutocompleteStatus,
     AutocompleteArrow,
-  } from "$lib/components/autocomplete"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/autocomplete"
+  import { Button } from "#lib/components/button"
   import {
     Archive,
     ChevronDown,
@@ -94,13 +94,13 @@
   const installCode = `import {
   Autocomplete, AutocompleteLabel, AutocompleteInput,
   AutocompleteContent, AutocompleteList, AutocompleteItem, AutocompleteEmpty,
-} from "$lib/components/autocomplete"`
+} from "#lib/components/autocomplete"`
 
   const usageCode = `<script lang="ts">
   import {
     Autocomplete, AutocompleteLabel, AutocompleteInput,
     AutocompleteContent, AutocompleteList, AutocompleteItem, AutocompleteEmpty,
-  } from "$lib/components/autocomplete"
+  } from "#lib/components/autocomplete"
 
   const fruits = ["Apple", "Apricot", "Avocado", "Banana", "Blueberry", "Mango", "Peach"]
 <\/script>

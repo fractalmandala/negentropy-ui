@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Dialog,
     DialogTrigger,
@@ -8,20 +8,20 @@
     DialogTitle,
     DialogDescription,
     DialogClose,
-  } from "$lib/components/dialog"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/dialog"
+  import { Button } from "#lib/components/button"
   import { X } from "@lucide/svelte"
 
   const installCode = `import {
   Dialog, DialogTrigger, DialogBackdrop, DialogContent,
   DialogTitle, DialogDescription, DialogClose,
-} from "$lib/components/dialog"`
+} from "#lib/components/dialog"`
 
   const usageCode = `<script lang="ts">
   import {
     Dialog, DialogTrigger, DialogBackdrop, DialogContent,
     DialogTitle, DialogDescription, DialogClose,
-  } from "$lib/components/dialog"
+  } from "#lib/components/dialog"
 <\/script>
 
 <Dialog>

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onDestroy } from "svelte"
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     ToastRegion,
     Toast,
@@ -9,8 +9,8 @@
     ToastAction,
     ToastClose,
     createToaster,
-  } from "$lib/components/toast"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/toast"
+  import { Button } from "#lib/components/button"
   import { X, Check, Info, TriangleAlert, CircleAlert, LoaderCircle, Undo2 } from "@lucide/svelte"
 
   const installCode = `import {
@@ -22,10 +22,10 @@
   ToastClose,
   toast,
   createToaster,
-} from "$lib/components/toast"`
+} from "#lib/components/toast"`
 
   const usageCode = `<script lang="ts">
-  import { ToastRegion, Toast, ToastTitle, ToastDescription, ToastClose, toast } from "$lib/components/toast"
+  import { ToastRegion, Toast, ToastTitle, ToastDescription, ToastClose, toast } from "#lib/components/toast"
   import { X } from "@lucide/svelte"
 <\/script>
 

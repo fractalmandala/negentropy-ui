@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     HoverCard,
     HoverCardTrigger,
     HoverCardContent,
     HoverCardArrow,
     createHoverCardController,
-  } from "$lib/components/hover-card"
-  import { Button } from "$lib/components/button"
-  import { Avatar, AvatarFallback } from "$lib/components/avatar"
+  } from "#lib/components/hover-card"
+  import { Button } from "#lib/components/button"
+  import { Avatar, AvatarFallback } from "#lib/components/avatar"
   import { MapPin, Link as LinkIcon, CalendarDays } from "@lucide/svelte"
 
   type Author = {
@@ -24,14 +24,14 @@
   HoverCardContent,
   HoverCardArrow,
   createHoverCardController,
-} from "$lib/components/hover-card"`
+} from "#lib/components/hover-card"`
 
   const usageCode = `<script lang="ts">
   import {
     HoverCard,
     HoverCardTrigger,
     HoverCardContent,
-  } from "$lib/components/hover-card"
+  } from "#lib/components/hover-card"
 <\/script>
 
 <HoverCard>
@@ -66,7 +66,7 @@
 </HoverCard>`
 
   const sharedCode = `<script lang="ts">
-  import { createHoverCardController } from "$lib/components/hover-card"
+  import { createHoverCardController } from "#lib/components/hover-card"
 
   type Author = { name: string; handle: string; bio: string; joined: string }
 

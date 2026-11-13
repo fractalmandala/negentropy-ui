@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Rating, RatingItem } from "$lib/components/rating"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Rating, RatingItem } from "#lib/components/rating"
+  import { Button } from "#lib/components/button"
   import { Star } from "@lucide/svelte"
 
-  const installCode = `import { Rating, RatingItem } from "$lib/components/rating"`
+  const installCode = `import { Rating, RatingItem } from "#lib/components/rating"`
 
   const usageCode = `<script lang="ts">
   import { Star } from "@lucide/svelte"
-  import { Rating, RatingItem } from "$lib/components/rating"
+  import { Rating, RatingItem } from "#lib/components/rating"
 <\/script>
 
 <Rating aria-label="Rating" defaultValue={3}>
@@ -19,7 +19,7 @@
 
   const halfCode = `<script lang="ts">
   import { Star } from "@lucide/svelte"
-  import { Rating, RatingItem } from "$lib/components/rating"
+  import { Rating, RatingItem } from "#lib/components/rating"
 <\/script>
 
 <Rating aria-label="Rating" step={0.5} defaultValue={3.5}>
@@ -30,8 +30,8 @@
 
   const controlledCode = `<script lang="ts">
   import { Star } from "@lucide/svelte"
-  import { Rating, RatingItem } from "$lib/components/rating"
-  import { Button } from "$lib/components/button"
+  import { Rating, RatingItem } from "#lib/components/rating"
+  import { Button } from "#lib/components/button"
 
   let value = $state<number | null>(4)
 <\/script>
@@ -50,7 +50,7 @@
 
   const readOnlyCode = `<script lang="ts">
   import { Star } from "@lucide/svelte"
-  import { Rating, RatingItem } from "$lib/components/rating"
+  import { Rating, RatingItem } from "#lib/components/rating"
 <\/script>
 
 <Rating
@@ -65,7 +65,7 @@
 
   const sizesCode = `<script lang="ts">
   import { Star } from "@lucide/svelte"
-  import { Rating, RatingItem } from "$lib/components/rating"
+  import { Rating, RatingItem } from "#lib/components/rating"
 <\/script>
 
 <div class="flex flex-col items-start gap-3">

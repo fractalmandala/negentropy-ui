@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     TriggerMenu,
     TriggerMenuInput,
@@ -14,14 +14,14 @@
     TriggerMenuStatus,
     TriggerMenuHint,
     type TriggerDefinition,
-  } from "$lib/components/trigger-menu"
+  } from "#lib/components/trigger-menu"
   import { Users } from "@lucide/svelte"
 
   const installCode = `import {
   TriggerMenu, TriggerMenuInput, TriggerMenuContent, TriggerMenuList,
   TriggerMenuItem, TriggerMenuItemIcon, TriggerMenuGroup, TriggerMenuGroupLabel,
   TriggerMenuSeparator, TriggerMenuEmpty, TriggerMenuStatus, TriggerMenuHint,
-} from "$lib/components/trigger-menu"`
+} from "#lib/components/trigger-menu"`
 
   const people = [
     { value: "hollis", label: "Hollis Grant" },
@@ -84,7 +84,7 @@
   const mentionsCode = `<script lang="ts">
   import {
     TriggerMenu, TriggerMenuInput, TriggerMenuStatus,
-  } from "$lib/components/trigger-menu"
+  } from "#lib/components/trigger-menu"
   const people = [
     { value: "hollis", label: "Hollis Grant" },
     { value: "ines", label: "Inès Moreau" },
@@ -108,7 +108,7 @@
   const triggersCode = `<script lang="ts">
   import {
     type TriggerDefinition, TriggerMenu, TriggerMenuInput, TriggerMenuStatus,
-  } from "$lib/components/trigger-menu"
+  } from "#lib/components/trigger-menu"
 
   const people = [{ value: "hollis", label: "Hollis Grant" }]
   const channels = ["design", "engineering", "general", "launches"]
@@ -147,7 +147,7 @@
     TriggerMenu, TriggerMenuInput, TriggerMenuContent, TriggerMenuList,
     TriggerMenuItem, TriggerMenuItemIcon, TriggerMenuGroup, TriggerMenuGroupLabel,
     TriggerMenuSeparator, TriggerMenuEmpty, TriggerMenuStatus,
-  } from "$lib/components/trigger-menu"
+  } from "#lib/components/trigger-menu"
 
   const people = [
     { value: "hollis", label: "Hollis Grant" },
@@ -201,7 +201,7 @@
   const argumentsCode = `<script lang="ts">
   import {
     TriggerMenu, TriggerMenuInput, TriggerMenuHint, TriggerMenuStatus,
-  } from "$lib/components/trigger-menu"
+  } from "#lib/components/trigger-menu"
 
   const commands = [
     {
@@ -240,7 +240,7 @@
 <p class="text-sm text-muted">Sent {sent}</p>`
 
   const controlledCode = `<script lang="ts">
-  import { TriggerMenu, TriggerMenuInput, TriggerMenuStatus } from "$lib/components/trigger-menu"
+  import { TriggerMenu, TriggerMenuInput, TriggerMenuStatus } from "#lib/components/trigger-menu"
   const people = [{ value: "hollis", label: "Hollis Grant" }]
   let open = $state(false)
   let reason = $state("none")

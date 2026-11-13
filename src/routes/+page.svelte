@@ -1,5 +1,5 @@
 <script lang="ts">
-  import registry from "$lib/registry.json"
+  import registry from "#lib/registry.json"
   import { ArrowRight, Boxes, Accessibility, FileCode2 } from "@lucide/svelte"
 
   const grouped = $derived(

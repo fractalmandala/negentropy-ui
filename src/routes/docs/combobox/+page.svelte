@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Combobox,
     ComboboxLabel,
@@ -23,8 +23,8 @@
     ComboboxSelectAll,
     ComboboxCreate,
     ComboboxArrow,
-  } from "$lib/components/combobox"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/combobox"
+  import { Button } from "#lib/components/button"
   import { Check, ChevronDown, Minus, Plus, LoaderCircle, X } from "@lucide/svelte"
 
   const frameworks = [
@@ -82,14 +82,14 @@
   const installCode = `import {
   Combobox, ComboboxLabel, ComboboxInput, ComboboxTrigger,
   ComboboxContent, ComboboxList, ComboboxItem, ComboboxItemIndicator,
-} from "$lib/components/combobox"`
+} from "#lib/components/combobox"`
 
   const usageCode = `<script lang="ts">
   import {
     Combobox, ComboboxLabel, ComboboxInput, ComboboxTrigger,
     ComboboxContent, ComboboxList, ComboboxItem, ComboboxItemIndicator,
     ComboboxEmpty,
-  } from "$lib/components/combobox"
+  } from "#lib/components/combobox"
   import { Check, ChevronDown } from "@lucide/svelte"
 
   const frameworks = [

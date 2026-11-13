@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Resizable,
     ResizablePanel,
     ResizableHandle,
     createResizableController,
-  } from "$lib/components/resizable"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/resizable"
+  import { Button } from "#lib/components/button"
   import { Folder, Search, Settings } from "@lucide/svelte"
 
-  const installCode = `import { Resizable, ResizablePanel, ResizableHandle } from "$lib/components/resizable"`
+  const installCode = `import { Resizable, ResizablePanel, ResizableHandle } from "#lib/components/resizable"`
 
   const usageCode = `<script lang="ts">
-  import { Resizable, ResizablePanel, ResizableHandle } from "$lib/components/resizable"
+  import { Resizable, ResizablePanel, ResizableHandle } from "#lib/components/resizable"
 <\/script>
 
 <Resizable>
@@ -56,7 +56,7 @@
 
   const collapsibleCode = `<script lang="ts">
   import { Folder, Search, Settings } from "@lucide/svelte"
-  import { Resizable, ResizablePanel, ResizableHandle } from "$lib/components/resizable"
+  import { Resizable, ResizablePanel, ResizableHandle } from "#lib/components/resizable"
 <\/script>
 
 <Resizable>
@@ -110,8 +110,8 @@
 </Resizable>`
 
   const controlledCode = `<script lang="ts">
-  import { Resizable, ResizablePanel, ResizableHandle } from "$lib/components/resizable"
-  import { Button } from "$lib/components/button"
+  import { Resizable, ResizablePanel, ResizableHandle } from "#lib/components/resizable"
+  import { Button } from "#lib/components/button"
 
   let layout = $state([30, 70])
   let reason = $state("idle")
@@ -144,8 +144,8 @@
     ResizablePanel,
     ResizableHandle,
     createResizableController,
-  } from "$lib/components/resizable"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/resizable"
+  import { Button } from "#lib/components/button"
 
   const editor = createResizableController()
   let readout = $state("Press Read to inspect the layout")
@@ -194,8 +194,8 @@
 </Resizable>`
 
   const disabledCode = `<script lang="ts">
-  import { Resizable, ResizablePanel, ResizableHandle } from "$lib/components/resizable"
-  import { Button } from "$lib/components/button"
+  import { Resizable, ResizablePanel, ResizableHandle } from "#lib/components/resizable"
+  import { Button } from "#lib/components/button"
 
   let locked = $state(false)
 <\/script>
@@ -600,7 +600,7 @@
       ]}
     />
     <PropsTable
-      caption="Re-exports from $lib/components/resizable"
+      caption="Re-exports from #lib/components/resizable"
       rows={[
         { name: "createResizableController", type: "() => ResizableController", description: "Creates the controller you pass as the controller prop." },
         { name: "resizableStorageKey", type: "(autoSaveId: string) => string", description: "The key a group saves under, for reading or clearing a saved layout yourself." },

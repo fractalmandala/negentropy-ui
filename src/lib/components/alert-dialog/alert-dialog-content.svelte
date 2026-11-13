@@ -2,7 +2,7 @@
   import { AlertDialogContent as AlertDialogContentPrimitive } from "@ui-sdk/svelte/alert-dialog"
   import { type DialogContentProps, type DialogContentState } from "@ui-sdk/svelte/dialog"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   // AlertDialogContent is the dialog content part, so it carries the dialog's
   // state (presentation may be "sheet"); the narrower alert state would not fit.

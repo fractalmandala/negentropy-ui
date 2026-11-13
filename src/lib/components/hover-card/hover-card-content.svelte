@@ -4,8 +4,8 @@
     type HoverCardContentProps,
     type HoverCardContentState,
   } from "@ui-sdk/svelte/hover-card"
-  import { cn } from "$lib/utils/cn"
-  import type { PartPropsPortable } from "$lib/utils/part-render"
+  import { cn } from "#lib/utils/cn"
+  import type { PartPropsPortable } from "#lib/utils/part-render"
 
   let {
     class: className,

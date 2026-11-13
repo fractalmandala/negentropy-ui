@@ -5,7 +5,7 @@
     type RadioGroupState,
   } from "@ui-sdk/svelte/radio"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     value = $bindable(),

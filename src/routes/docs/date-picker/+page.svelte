@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     DatePicker,
     DatePickerInput,
@@ -10,7 +10,7 @@
     DatePickerPreset,
     createDatePickerController,
     type DatePickerValue,
-  } from "$lib/components/date-picker"
+  } from "#lib/components/date-picker"
   import {
     CalendarPrevious,
     CalendarHeading,
@@ -20,28 +20,28 @@
     CalendarWeekday,
     CalendarWeeks,
     CalendarDay,
-  } from "$lib/components/calendar"
-  import { Field, FieldLabel, FieldDescription, FieldError } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/calendar"
+  import { Field, FieldLabel, FieldDescription, FieldError } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
   import { Calendar, ChevronLeft, ChevronRight, X } from "@lucide/svelte"
 
   const installCode = `import {
   DatePicker, DatePickerInput, DatePickerTrigger, DatePickerContent,
   DatePickerHint, DatePickerClear, DatePickerPreset,
-} from "$lib/components/date-picker"
+} from "#lib/components/date-picker"
 import {
   CalendarPrevious, CalendarHeading, CalendarNext,
   CalendarGrid, CalendarWeekdays, CalendarWeekday, CalendarWeeks, CalendarDay,
-} from "$lib/components/calendar"`
+} from "#lib/components/calendar"`
 
   const usageCode = `<script lang="ts">
   import {
     DatePicker, DatePickerInput, DatePickerTrigger, DatePickerContent, DatePickerHint,
-  } from "$lib/components/date-picker"
+  } from "#lib/components/date-picker"
   import {
     CalendarPrevious, CalendarHeading, CalendarNext,
     CalendarGrid, CalendarWeekdays, CalendarWeekday, CalendarWeeks, CalendarDay,
-  } from "$lib/components/calendar"
+  } from "#lib/components/calendar"
   import { Calendar, ChevronLeft, ChevronRight } from "@lucide/svelte"
 <\/script>
 
@@ -181,7 +181,7 @@ import {
 </DatePicker>`
 
   const controlledCode = `<script lang="ts">
-  import type { DatePickerValue } from "$lib/components/date-picker"
+  import type { DatePickerValue } from "#lib/components/date-picker"
   let value = $state<DatePickerValue>("2026-10-16")
   let open = $state(false)
 <\/script>
@@ -220,7 +220,7 @@ import {
 <p class="text-sm text-muted">value: {value ?? "null"} · open: {open}</p>`
 
   const controllerCode = `<script lang="ts">
-  import { createDatePickerController } from "$lib/components/date-picker"
+  import { createDatePickerController } from "#lib/components/date-picker"
   const picker = createDatePickerController()
 <\/script>
 
@@ -477,7 +477,7 @@ import {
       Import the picker parts from Negentropy UI. They wrap
       <code class="font-mono text-accent">@ui-sdk/svelte/date-picker</code>.
       The calendar parts inside the popup come from
-      <code class="font-mono text-accent">$lib/components/calendar</code> and are also
+      <code class="font-mono text-accent">#lib/components/calendar</code> and are also
       re-exported from the date-picker barrel, so one import is enough.
       <code class="font-mono text-accent">createDatePickerController</code> and the value
       types come from the same barrel.

@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  // import { __NAME__ } from "$lib/components/__SLUG__"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  // import { __NAME__ } from "#lib/components/__SLUG__"
 
-  const installCode = `import { __NAME__ } from "$lib/components/__SLUG__"`
+  const installCode = `import { __NAME__ } from "#lib/components/__SLUG__"`
   const usageCode = `<!-- basic usage -->`
 </script>
 

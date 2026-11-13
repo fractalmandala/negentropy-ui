@@ -1,7 +1,7 @@
 <script lang="ts">
   import { MeterTrack as MeterTrackPrimitive, type MeterState } from "@ui-sdk/svelte/meter"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"div", MeterState> = $props()
 </script>

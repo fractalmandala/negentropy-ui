@@ -1,7 +1,7 @@
 <script lang="ts">
   import { ProgressIndicator as ProgressIndicatorPrimitive, type ProgressState } from "@ui-sdk/svelte/progress"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

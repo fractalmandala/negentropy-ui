@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Menu,
     MenuTrigger,
@@ -16,18 +16,18 @@
     MenuSub,
     MenuSubTrigger,
     MenuSubContent,
-  } from "$lib/components/menu"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/menu"
+  import { Button } from "#lib/components/button"
   import { Check, ChevronRight, Copy, Download, Link, Mail, Share } from "@lucide/svelte"
 
   const installCode = `import {
   Menu, MenuTrigger, MenuContent, MenuItem, MenuSeparator,
   MenuCheckboxItem, MenuRadioGroup, MenuRadioItem, MenuItemIndicator,
   MenuGroup, MenuGroupLabel, MenuItemIcon, MenuSub, MenuSubTrigger, MenuSubContent,
-} from "$lib/components/menu"`
+} from "#lib/components/menu"`
 
   const basicCode = `<script lang="ts">
-  import { Menu, MenuTrigger, MenuContent, MenuItem, MenuSeparator } from "$lib/components/menu"
+  import { Menu, MenuTrigger, MenuContent, MenuItem, MenuSeparator } from "#lib/components/menu"
   let action = $state("none")
 <\/script>
 
@@ -43,7 +43,7 @@
 <p class="text-sm text-muted">Last action: {action}</p>`
 
   const iconsCode = `<script lang="ts">
-  import { Menu, MenuTrigger, MenuContent, MenuItem, MenuItemIcon, MenuSeparator } from "$lib/components/menu"
+  import { Menu, MenuTrigger, MenuContent, MenuItem, MenuItemIcon, MenuSeparator } from "#lib/components/menu"
   import { Copy, Download, Link, Mail, Share } from "@lucide/svelte"
   let action = $state("none")
 <\/script>
@@ -77,7 +77,7 @@
   import {
     Menu, MenuTrigger, MenuContent, MenuCheckboxItem, MenuItemIndicator,
     MenuRadioGroup, MenuRadioItem, MenuGroupLabel, MenuSeparator,
-  } from "$lib/components/menu"
+  } from "#lib/components/menu"
   let statusBar = $state(true)
   let position = $state<string | null>("bottom")
 <\/script>
@@ -112,7 +112,7 @@
   import {
     Menu, MenuTrigger, MenuContent, MenuItem, MenuSeparator,
     MenuSub, MenuSubTrigger, MenuSubContent,
-  } from "$lib/components/menu"
+  } from "#lib/components/menu"
   let action = $state("none")
 <\/script>
 
@@ -142,7 +142,7 @@
 <p class="text-sm text-muted">Last action: {action}</p>`
 
   const contextCode = `<script lang="ts">
-  import { Menu, MenuContextTrigger, MenuContent, MenuItem, MenuSeparator } from "$lib/components/menu"
+  import { Menu, MenuContextTrigger, MenuContent, MenuItem, MenuSeparator } from "#lib/components/menu"
   let action = $state("none")
 <\/script>
 
@@ -159,8 +159,8 @@
 <p class="text-sm text-muted">Last action: {action}</p>`
 
   const controlledCode = `<script lang="ts">
-  import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"
-  import { Button } from "$lib/components/button"
+  import { Menu, MenuTrigger, MenuContent, MenuItem } from "#lib/components/menu"
+  import { Button } from "#lib/components/button"
   let open = $state(false)
 <\/script>
 

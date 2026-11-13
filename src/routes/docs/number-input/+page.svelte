@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     NumberInput,
     NumberInputGroup,
@@ -9,8 +9,8 @@
     NumberInputScrubArea,
     NumberInputScrubAreaCursor,
     createNumberInputController,
-  } from "$lib/components/number-input"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/number-input"
+  import { Button } from "#lib/components/button"
   import { Minus, Plus, MoveHorizontal, RotateCcw, Trash2 } from "@lucide/svelte"
 
   const installCode = `import {
@@ -19,7 +19,7 @@
   NumberInputControl,
   NumberInputDecrement,
   NumberInputIncrement,
-} from "$lib/components/number-input"`
+} from "#lib/components/number-input"`
 
   const usageCode = `<script lang="ts">
   import {
@@ -28,7 +28,7 @@
     NumberInputControl,
     NumberInputDecrement,
     NumberInputIncrement,
-  } from "$lib/components/number-input"
+  } from "#lib/components/number-input"
   import { Minus, Plus } from "@lucide/svelte"
 <\/script>
 
@@ -113,7 +113,7 @@
 </div>`
 
   const controlledCode = `<script lang="ts">
-  import { Button } from "$lib/components/button"
+  import { Button } from "#lib/components/button"
 
   let servings = $state<number | null>(4)
   let committed = $state("")
@@ -241,8 +241,8 @@
   }[]
 
   const controllerCode = `<script lang="ts">
-  import { createNumberInputController } from "$lib/components/number-input"
-  import { Button } from "$lib/components/button"
+  import { createNumberInputController } from "#lib/components/number-input"
+  import { Button } from "#lib/components/button"
 
   const zoom = createNumberInputController()
 <\/script>

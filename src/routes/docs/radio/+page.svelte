@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { RadioGroup, Radio, RadioIndicator } from "$lib/components/radio"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { RadioGroup, Radio, RadioIndicator } from "#lib/components/radio"
+  import { Button } from "#lib/components/button"
 
-  const installCode = `import { RadioGroup, Radio, RadioIndicator } from "$lib/components/radio"`
+  const installCode = `import { RadioGroup, Radio, RadioIndicator } from "#lib/components/radio"`
 
   const usageCode = `<script lang="ts">
-  import { RadioGroup, Radio, RadioIndicator } from "$lib/components/radio"
+  import { RadioGroup, Radio, RadioIndicator } from "#lib/components/radio"
 <\/script>
 
 <RadioGroup defaultValue="standard" aria-label="Shipping speed">
@@ -25,8 +25,8 @@
 </RadioGroup>`
 
   const controlledCode = `<script lang="ts">
-  import { RadioGroup, Radio, RadioIndicator } from "$lib/components/radio"
-  import { Button } from "$lib/components/button"
+  import { RadioGroup, Radio, RadioIndicator } from "#lib/components/radio"
+  import { Button } from "#lib/components/button"
 
   let value = $state<string | null>("pro")
 <\/script>
@@ -91,7 +91,7 @@
 </div>`
 
   const cardsCode = `<script lang="ts">
-  import { RadioGroup, Radio, RadioIndicator } from "$lib/components/radio"
+  import { RadioGroup, Radio, RadioIndicator } from "#lib/components/radio"
 
   const plans = [
     { value: "hobby", label: "Hobby", description: "Free for personal projects." },
@@ -113,8 +113,8 @@
 </RadioGroup>`
 
   const formCode = `<script lang="ts">
-  import { RadioGroup, Radio, RadioIndicator } from "$lib/components/radio"
-  import { Button } from "$lib/components/button"
+  import { RadioGroup, Radio, RadioIndicator } from "#lib/components/radio"
+  import { Button } from "#lib/components/button"
 
   let submitted = $state("")
 

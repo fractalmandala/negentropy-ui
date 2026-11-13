@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Listbox,
     ListboxItem,
@@ -10,9 +10,9 @@
     ListboxSeparator,
     createListboxController,
     type ListData,
-  } from "$lib/components/listbox"
-  import { Field, FieldLabel, FieldDescription } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/listbox"
+  import { Field, FieldLabel, FieldDescription } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
   import { Archive, ArrowRight, Check, File, Mail, Pencil, Star } from "@lucide/svelte"
 
   type Plan = { id: string; price: number }
@@ -103,11 +103,11 @@
   Listbox, ListboxItem, ListboxItemIndicator,
   ListboxItemIcon, ListboxGroup, ListboxGroupLabel, ListboxSeparator,
   createListboxController,
-} from "$lib/components/listbox"`
+} from "#lib/components/listbox"`
 
   const usageCode = `<script lang="ts">
-  import { Listbox, ListboxItem, ListboxItemIndicator } from "$lib/components/listbox"
-  import { Field, FieldLabel, FieldDescription } from "$lib/components/field"
+  import { Listbox, ListboxItem, ListboxItemIndicator } from "#lib/components/listbox"
+  import { Field, FieldLabel, FieldDescription } from "#lib/components/field"
   import { Check } from "@lucide/svelte"
 
   const topics = [
@@ -319,7 +319,7 @@
 </div>`
 
   const controllerCode = `<script lang="ts">
-  import { createListboxController } from "$lib/components/listbox"
+  import { createListboxController } from "#lib/components/listbox"
 
   const toppingController = createListboxController<string, true>()
   let controllerCount = $state(0)

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { ToolbarLink as ToolbarLinkPrimitive, type ToolbarLinkState } from "@ui-sdk/svelte/toolbar"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"a", ToolbarLinkState> = $props()
 </script>

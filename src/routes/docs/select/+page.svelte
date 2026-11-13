@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Select,
     SelectLabel,
@@ -16,8 +16,8 @@
     SelectInput,
     SelectEmpty,
     SelectSelectAll,
-  } from "$lib/components/select"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/select"
+  import { Button } from "#lib/components/button"
   import { Check, ChevronDown, Minus } from "@lucide/svelte"
 
   const roles = [
@@ -68,13 +68,13 @@
   const installCode = `import {
   Select, SelectLabel, SelectTrigger, SelectValue,
   SelectContent, SelectItem, SelectItemIndicator,
-} from "$lib/components/select"`
+} from "#lib/components/select"`
 
   const usageCode = `<script lang="ts">
   import {
     Select, SelectLabel, SelectTrigger, SelectValue,
     SelectContent, SelectItem, SelectItemIndicator,
-  } from "$lib/components/select"
+  } from "#lib/components/select"
   import { Check, ChevronDown } from "@lucide/svelte"
 
   const roles = [

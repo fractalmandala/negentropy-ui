@@ -5,7 +5,7 @@
     type TriggerMenuContentState,
   } from "@ui-sdk/svelte/trigger-menu"
   import type { PartProps, PopupContainer } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

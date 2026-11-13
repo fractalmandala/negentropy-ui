@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     NavigationMenu,
     NavigationMenuList,
@@ -11,15 +11,15 @@
     NavigationMenuViewport,
     NavigationMenuIndicator,
     createNavigationMenuController,
-  } from "$lib/components/navigation-menu"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/navigation-menu"
+  import { Button } from "#lib/components/button"
   import { ArrowRight, ChevronDown, Circle, CircleCheck } from "@lucide/svelte"
 
   const installCode = `import {
   NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger,
   NavigationMenuContent, NavigationMenuLink, NavigationMenuLinkIcon,
   NavigationMenuViewport, NavigationMenuIndicator,
-} from "$lib/components/navigation-menu"`
+} from "#lib/components/navigation-menu"`
 
   const gettingStarted = [
     { title: "Button", href: "/docs/button", description: "Actions and commands, in five tones." },
@@ -42,7 +42,7 @@
   import {
     NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger,
     NavigationMenuContent, NavigationMenuLink, NavigationMenuViewport,
-  } from "$lib/components/navigation-menu"
+  } from "#lib/components/navigation-menu"
 
   const components = [
     { title: "Menu", href: "/docs/menu", description: "Actions from a button or a right-click." },
@@ -80,7 +80,7 @@
   import {
     NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger,
     NavigationMenuContent, NavigationMenuLink, NavigationMenuViewport,
-  } from "$lib/components/navigation-menu"
+  } from "#lib/components/navigation-menu"
 <\/script>
 
 <NavigationMenu orientation="vertical" aria-label="Sections">
@@ -116,8 +116,8 @@
   import {
     NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger,
     NavigationMenuContent, NavigationMenuLink, NavigationMenuViewport,
-  } from "$lib/components/navigation-menu"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/navigation-menu"
+  import { Button } from "#lib/components/button"
   let value = $state<string | null>(null)
 <\/script>
 
@@ -154,7 +154,7 @@
     NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger,
     NavigationMenuContent, NavigationMenuLink, NavigationMenuLinkIcon,
     NavigationMenuIndicator,
-  } from "$lib/components/navigation-menu"
+  } from "#lib/components/navigation-menu"
 <\/script>
 
 <NavigationMenu aria-label="Main">
@@ -194,7 +194,7 @@
   const controllerCode = `<script lang="ts">
   import {
     NavigationMenu, createNavigationMenuController,
-  } from "$lib/components/navigation-menu"
+  } from "#lib/components/navigation-menu"
   const menu = createNavigationMenuController()
 <\/script>
 

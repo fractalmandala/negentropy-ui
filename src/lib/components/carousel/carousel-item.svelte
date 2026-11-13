@@ -1,7 +1,7 @@
 <script lang="ts">
   import { CarouselItem as CarouselItemPrimitive, type CarouselItemState } from "@ui-sdk/svelte/carousel"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"div", CarouselItemState> = $props()
 </script>

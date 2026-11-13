@@ -1,7 +1,7 @@
 <script lang="ts">
   import { TooltipArrow as TooltipArrowPrimitive, type TooltipArrowState } from "@ui-sdk/svelte/tooltip"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     ColorPicker,
     ColorPickerArea,
@@ -17,8 +17,8 @@
     formatColor,
     parseColor,
     type ColorFormat,
-  } from "$lib/components/color-picker"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/color-picker"
+  import { Button } from "#lib/components/button"
   import { Pipette } from "@lucide/svelte"
 
   const presets = [
@@ -42,13 +42,13 @@
   const installCode = `import {
   ColorPicker, ColorPickerArea, ColorPickerAreaThumb,
   ColorPickerSlider, ColorPickerSliderThumb, ColorPickerInput,
-} from "$lib/components/color-picker"`
+} from "#lib/components/color-picker"`
 
   const usageCode = `<script lang="ts">
   import {
     ColorPicker, ColorPickerArea, ColorPickerAreaThumb,
     ColorPickerSlider, ColorPickerSliderThumb, ColorPickerInput,
-  } from "$lib/components/color-picker"
+  } from "#lib/components/color-picker"
 <\/script>
 
 <ColorPicker aria-label="Brand color" defaultValue="#0ea5e9">
@@ -88,7 +88,7 @@
 </ColorPicker>`
 
   const controlledCode = `<script lang="ts">
-  import { createColorPickerController } from "$lib/components/color-picker"
+  import { createColorPickerController } from "#lib/components/color-picker"
 
   const picker = createColorPickerController()
   let value = $state("#0ea5e9")
@@ -147,7 +147,7 @@
 </ColorPicker>`
 
   const formatCode = `<script lang="ts">
-  import { formatColor, parseColor, type ColorFormat } from "$lib/components/color-picker"
+  import { formatColor, parseColor, type ColorFormat } from "#lib/components/color-picker"
 
   let format = $state<ColorFormat>("hex")
   let value = $state("#0ea5e9")

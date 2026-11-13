@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Toggle,
     ToggleIcon,
     ToggleGroup,
     createToggleController,
     createToggleGroupController,
-  } from "$lib/components/toggle"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/toggle"
+  import { Button } from "#lib/components/button"
   import {
     Star,
     Bold,
@@ -20,11 +20,11 @@
     Heart,
   } from "@lucide/svelte"
 
-  const installCode = `import { Toggle, ToggleIcon, ToggleGroup } from "$lib/components/toggle"`
+  const installCode = `import { Toggle, ToggleIcon, ToggleGroup } from "#lib/components/toggle"`
 
   const usageCode = `<script lang="ts">
   import { Star } from "@lucide/svelte"
-  import { Toggle, ToggleIcon } from "$lib/components/toggle"
+  import { Toggle, ToggleIcon } from "#lib/components/toggle"
 <\/script>
 
 <Toggle size="icon" aria-label="Star">
@@ -33,7 +33,7 @@
 
   const labelCode = `<script lang="ts">
   import { Pin } from "@lucide/svelte"
-  import { Toggle, ToggleIcon } from "$lib/components/toggle"
+  import { Toggle, ToggleIcon } from "#lib/components/toggle"
 <\/script>
 
 <Toggle defaultPressed>
@@ -43,8 +43,8 @@
 
   const controlledCode = `<script lang="ts">
   import { Star } from "@lucide/svelte"
-  import { Toggle, ToggleIcon, createToggleController } from "$lib/components/toggle"
-  import { Button } from "$lib/components/button"
+  import { Toggle, ToggleIcon, createToggleController } from "#lib/components/toggle"
+  import { Button } from "#lib/components/button"
 
   let starred = $state(false)
   const star = createToggleController()
@@ -60,8 +60,8 @@
 
   const groupCode = `<script lang="ts">
   import { Bold, Italic, Underline } from "@lucide/svelte"
-  import { Toggle, ToggleGroup, ToggleIcon, createToggleGroupController } from "$lib/components/toggle"
-  import { Button } from "$lib/components/button"
+  import { Toggle, ToggleGroup, ToggleIcon, createToggleGroupController } from "#lib/components/toggle"
+  import { Button } from "#lib/components/button"
 
   let formats = $state(["bold"])
   const editor = createToggleGroupController()
@@ -87,7 +87,7 @@
 
   const singleCode = `<script lang="ts">
   import { TextAlignStart, TextAlignCenter, TextAlignEnd } from "@lucide/svelte"
-  import { Toggle, ToggleGroup, ToggleIcon } from "$lib/components/toggle"
+  import { Toggle, ToggleGroup, ToggleIcon } from "#lib/components/toggle"
 
   const alignments = [
     { value: "start", label: "Align start", icon: TextAlignStart, mirror: true },
@@ -106,7 +106,7 @@
 
   const variantsCode = `<script lang="ts">
   import { Pin } from "@lucide/svelte"
-  import { Toggle, ToggleIcon } from "$lib/components/toggle"
+  import { Toggle, ToggleIcon } from "#lib/components/toggle"
 
   const tones = ["solid", "outline", "ghost"] as const
 <\/script>
@@ -127,7 +127,7 @@
 
   const disabledCode = `<script lang="ts">
   import { Bold, Italic, Underline, Pin } from "@lucide/svelte"
-  import { Toggle, ToggleGroup, ToggleIcon } from "$lib/components/toggle"
+  import { Toggle, ToggleGroup, ToggleIcon } from "#lib/components/toggle"
 <\/script>
 
 <div class="flex flex-col gap-4">
@@ -159,7 +159,7 @@
 
   const renderCode = `<script lang="ts">
   import { Heart } from "@lucide/svelte"
-  import { Toggle, ToggleIcon } from "$lib/components/toggle"
+  import { Toggle, ToggleIcon } from "#lib/components/toggle"
 <\/script>
 
 <Toggle tone="ghost" size="icon" aria-label="Favorite">

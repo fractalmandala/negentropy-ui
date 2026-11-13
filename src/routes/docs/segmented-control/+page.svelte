@@ -1,25 +1,25 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     SegmentedControl,
     SegmentedControlItem,
     SegmentedControlIndicator,
     createSegmentedControlController,
-  } from "$lib/components/segmented-control"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/segmented-control"
+  import { Button } from "#lib/components/button"
   import { List, LayoutGrid, SquareKanban } from "@lucide/svelte"
 
   const range = createSegmentedControlController()
 
   const installCode = `import {
   SegmentedControl, SegmentedControlItem, SegmentedControlIndicator,
-} from "$lib/components/segmented-control"`
+} from "#lib/components/segmented-control"`
 
   const usageCode = `<script lang="ts">
   import { List, LayoutGrid, SquareKanban } from "@lucide/svelte"
   import {
     SegmentedControl, SegmentedControlItem, SegmentedControlIndicator,
-  } from "$lib/components/segmented-control"
+  } from "#lib/components/segmented-control"
 <\/script>
 
 <SegmentedControl aria-label="View" defaultValue="list">
@@ -30,7 +30,7 @@
 </SegmentedControl>`
 
   const controlledCode = `<script lang="ts">
-  import { createSegmentedControlController } from "$lib/components/segmented-control"
+  import { createSegmentedControlController } from "#lib/components/segmented-control"
 
   const range = createSegmentedControlController()
   let value = $state<string | null>("week")

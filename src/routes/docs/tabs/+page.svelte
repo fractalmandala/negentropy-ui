@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Tabs, TabsList, TabsTab, TabsPanel } from "$lib/components/tabs"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Tabs, TabsList, TabsTab, TabsPanel } from "#lib/components/tabs"
+  import { Button } from "#lib/components/button"
   import { User, Lock, Bell } from "@lucide/svelte"
 
-  const installCode = `import { Tabs, TabsList, TabsTab, TabsPanel } from "$lib/components/tabs"`
+  const installCode = `import { Tabs, TabsList, TabsTab, TabsPanel } from "#lib/components/tabs"`
 
   const usageCode = `<script lang="ts">
-  import { Tabs, TabsList, TabsTab, TabsPanel } from "$lib/components/tabs"
+  import { Tabs, TabsList, TabsTab, TabsPanel } from "#lib/components/tabs"
 <\/script>
 
 <Tabs defaultValue="account">

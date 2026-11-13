@@ -1,8 +1,8 @@
 <script lang="ts">
   import { MeterIndicator as MeterIndicatorPrimitive, type MeterState } from "@ui-sdk/svelte/meter"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "h-full rounded-full transition-[width] duration-300",

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Popover,
     PopoverTrigger,
@@ -9,20 +9,20 @@
     PopoverDescription,
     PopoverClose,
     PopoverShortcut,
-  } from "$lib/components/popover"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/popover"
+  import { Button } from "#lib/components/button"
   import { Info, Share2 } from "@lucide/svelte"
 
   const installCode = `import {
   Popover, PopoverTrigger, PopoverContent, PopoverArrow,
   PopoverTitle, PopoverDescription, PopoverClose, PopoverShortcut,
-} from "$lib/components/popover"`
+} from "#lib/components/popover"`
 
   const usageCode = `<script lang="ts">
   import {
     Popover, PopoverTrigger, PopoverContent,
     PopoverTitle, PopoverDescription, PopoverClose,
-  } from "$lib/components/popover"
+  } from "#lib/components/popover"
   import { Share2 } from "@lucide/svelte"
 <\/script>
 

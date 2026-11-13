@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     FileInput,
     FileInputTrigger,
@@ -11,22 +11,22 @@
     formatFileSize,
     relativePath,
     type FileRejection,
-  } from "$lib/components/file-input"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/file-input"
+  import { Button } from "#lib/components/button"
   import { File as FileIcon, FileImage, FolderOpen, Plus, Trash2, Upload, X } from "@lucide/svelte"
 
   const installCode = `import {
   FileInput, FileInputTrigger, FileInputDropzone,
   FileInputList, FileInputItem, FileInputItemRemove,
   formatFileSize,
-} from "$lib/components/file-input"`
+} from "#lib/components/file-input"`
 
   const usageCode = `<script lang="ts">
   import { File as FileIcon, Upload, X } from "@lucide/svelte"
   import {
     FileInput, FileInputTrigger, FileInputDropzone,
     FileInputList, FileInputItem, FileInputItemRemove, formatFileSize,
-  } from "$lib/components/file-input"
+  } from "#lib/components/file-input"
 <\/script>
 
 <FileInput name="attachments" multiple>

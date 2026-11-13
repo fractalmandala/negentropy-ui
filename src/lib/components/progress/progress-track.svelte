@@ -1,8 +1,8 @@
 <script lang="ts">
   import { ProgressTrack as ProgressTrackPrimitive, type ProgressState } from "@ui-sdk/svelte/progress"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "group/progress relative flex w-full box-border overflow-hidden rounded-full border border-line bg-elevated",

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Tooltip,
     TooltipTrigger,
@@ -7,18 +7,18 @@
     TooltipArrow,
     TooltipShortcut,
     createTooltipController,
-  } from "$lib/components/tooltip"
+  } from "#lib/components/tooltip"
   import { Bold, Bookmark, Check, Copy, Italic, Save, Underline } from "@lucide/svelte"
 
   const installCode = `import {
   Tooltip, TooltipTrigger, TooltipContent, TooltipArrow, TooltipShortcut,
   createTooltipController,
-} from "$lib/components/tooltip"`
+} from "#lib/components/tooltip"`
 
   const usageCode = `<script lang="ts">
   import {
     Tooltip, TooltipTrigger, TooltipContent, TooltipArrow,
-  } from "$lib/components/tooltip"
+  } from "#lib/components/tooltip"
   import { Bookmark } from "@lucide/svelte"
 <\/script>
 
@@ -92,7 +92,7 @@
 </Tooltip>`
 
   const sharedCode = `<script lang="ts">
-  import { createTooltipController } from "$lib/components/tooltip"
+  import { createTooltipController } from "#lib/components/tooltip"
   import { Bold, Italic, Underline } from "@lucide/svelte"
 
   const formats = [

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { DrawerHandle as DrawerHandlePrimitive, type DrawerHandleState } from "@ui-sdk/svelte/drawer"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

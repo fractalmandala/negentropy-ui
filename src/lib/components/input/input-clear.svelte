@@ -4,7 +4,7 @@
     type InputGroupState,
   } from "@ui-sdk/svelte/input"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

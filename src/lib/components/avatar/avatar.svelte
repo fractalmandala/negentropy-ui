@@ -5,8 +5,8 @@
     type AvatarState,
   } from "@ui-sdk/svelte/avatar"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "relative inline-grid shrink-0 place-items-center overflow-hidden rounded-full bg-elevated text-muted outline-1 -outline-offset-1 outline-line select-none data-[loading-status=error]:bg-accent-soft data-[loading-status=error]:text-accent",

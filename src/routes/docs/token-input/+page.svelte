@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     TokenInput,
     TokenInputEditor,
@@ -11,20 +11,20 @@
     type Token,
     type TokenDeletion,
     type TokenInputValue,
-  } from "$lib/components/token-input"
-  import { Field, FieldLabel } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/token-input"
+  import { Field, FieldLabel } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
   import { FileText, X } from "@lucide/svelte"
 
   const installCode = `import {
   TokenInput, TokenInputEditor, TokenInputToken, TokenInputTokenRemove,
   createTokenInputController, toText, toLabel, fromText,
-} from "$lib/components/token-input"`
+} from "#lib/components/token-input"`
 
   const usageCode = `<script lang="ts">
   import {
     TokenInput, TokenInputEditor, type TokenInputValue,
-  } from "$lib/components/token-input"
+  } from "#lib/components/token-input"
 
   const draft: TokenInputValue = [
     "Explain ",
@@ -50,11 +50,11 @@
   ]
 
   const basicCode = `<script lang="ts">
-  import { Field, FieldLabel } from "$lib/components/field"
+  import { Field, FieldLabel } from "#lib/components/field"
   import {
     TokenInput, TokenInputEditor, TokenInputToken, TokenInputTokenRemove,
     type TokenInputValue,
-  } from "$lib/components/token-input"
+  } from "#lib/components/token-input"
   import { X } from "@lucide/svelte"
 
   const draft: TokenInputValue = [
@@ -82,8 +82,8 @@
   import {
     TokenInput, TokenInputEditor, TokenInputToken, TokenInputTokenRemove,
     createTokenInputController, toText, type TokenInputValue,
-  } from "$lib/components/token-input"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/token-input"
+  import { Button } from "#lib/components/button"
   import { FileText, X } from "@lucide/svelte"
 
   let value = $state<TokenInputValue>([
@@ -125,8 +125,8 @@
   import {
     TokenInput, TokenInputEditor, TokenInputToken,
     type TokenDeletion, type TokenInputValue,
-  } from "$lib/components/token-input"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/token-input"
+  import { Button } from "#lib/components/button"
   import { FileText } from "@lucide/svelte"
 
   const draft: TokenInputValue = [
@@ -165,8 +165,8 @@
   import {
     TokenInput, TokenInputEditor, TokenInputToken, TokenInputTokenRemove,
     createTokenInputController, type Token, type TokenInputValue,
-  } from "$lib/components/token-input"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/token-input"
+  import { Button } from "#lib/components/button"
   import { FileText, X } from "@lucide/svelte"
 
   const draft: TokenInputValue = [
@@ -239,7 +239,7 @@
   const submitCode = `<script lang="ts">
   import {
     TokenInput, TokenInputEditor, toLabel,
-  } from "$lib/components/token-input"
+  } from "#lib/components/token-input"
 
   let sent = $state<string[]>([])
 <\/script>
@@ -260,7 +260,7 @@
   import {
     TokenInput, TokenInputEditor, TokenInputToken, TokenInputTokenRemove,
     type TokenInputValue,
-  } from "$lib/components/token-input"
+  } from "#lib/components/token-input"
   import { FileText, X } from "@lucide/svelte"
 
   const draft: TokenInputValue = [

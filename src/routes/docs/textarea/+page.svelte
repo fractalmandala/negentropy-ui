@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Textarea, createInputController } from "$lib/components/textarea"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Textarea, createInputController } from "#lib/components/textarea"
+  import { Button } from "#lib/components/button"
   import { Send, Trash2 } from "@lucide/svelte"
 
-  const installCode = `import { Textarea } from "$lib/components/textarea"`
+  const installCode = `import { Textarea } from "#lib/components/textarea"`
 
   const usageCode = `<script lang="ts">
-  import { Textarea } from "$lib/components/textarea"
+  import { Textarea } from "#lib/components/textarea"
 <\/script>
 
 <div class="flex w-80 flex-col gap-1.5">
@@ -16,7 +16,7 @@
 </div>`
 
   const controlledCode = `<script lang="ts">
-  import { Textarea } from "$lib/components/textarea"
+  import { Textarea } from "#lib/components/textarea"
 
   let bio = $state("Product designer in Lisbon. I write about type and interfaces.")
 <\/script>
@@ -28,7 +28,7 @@
 </div>`
 
   const autoResizeCode = `<script lang="ts">
-  import { Textarea } from "$lib/components/textarea"
+  import { Textarea } from "#lib/components/textarea"
 <\/script>
 
 <div class="flex w-80 flex-col gap-1.5">
@@ -43,7 +43,7 @@
 </div>`
 
   const shortcutCode = `<script lang="ts">
-  import { Textarea } from "$lib/components/textarea"
+  import { Textarea } from "#lib/components/textarea"
 
   let sent = $state("")
 <\/script>
@@ -74,8 +74,8 @@
 </div>`
 
   const formCode = `<script lang="ts">
-  import { Textarea, createInputController } from "$lib/components/textarea"
-  import { Button } from "$lib/components/button"
+  import { Textarea, createInputController } from "#lib/components/textarea"
+  import { Button } from "#lib/components/button"
 
   const message = createInputController()
   let log = $state("")

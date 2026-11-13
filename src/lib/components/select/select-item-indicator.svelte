@@ -5,7 +5,7 @@
     type SelectItemIndicatorState,
   } from "@ui-sdk/svelte/select"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

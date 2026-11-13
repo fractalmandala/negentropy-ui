@@ -4,8 +4,8 @@
     type NumberInputState,
   } from "@ui-sdk/svelte/number-input"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "group/number flex w-full items-center rounded-md border border-line bg-surface p-0.5 transition-colors has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-ring data-[disabled]:opacity-50 data-[readonly]:bg-elevated",

@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock } from "$lib/docs"
-  import { Button } from "$lib/components/button"
-  import { Switch } from "$lib/components/switch"
-  import { Progress, ProgressLabel, ProgressValue, ProgressTrack, ProgressIndicator } from "$lib/components/progress"
+  import { PageHeader, Section, Demo, CodeBlock } from "#lib/docs"
+  import { Button } from "#lib/components/button"
+  import { Switch } from "#lib/components/switch"
+  import { Progress, ProgressLabel, ProgressValue, ProgressTrack, ProgressIndicator } from "#lib/components/progress"
 
   let enabled = $state(true)
 

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { SelectItemText as SelectItemTextPrimitive, type SelectItemTextState } from "@ui-sdk/svelte/select"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"span", SelectItemTextState> = $props()
 </script>

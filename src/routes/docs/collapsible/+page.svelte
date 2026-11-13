@@ -1,24 +1,24 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Collapsible,
     CollapsibleTrigger,
     CollapsiblePanel,
     createCollapsibleController,
-  } from "$lib/components/collapsible"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/collapsible"
+  import { Button } from "#lib/components/button"
   import { ChevronDown } from "@lucide/svelte"
 
   const collapsible = createCollapsibleController()
 
   const installCode = `import {
   Collapsible, CollapsibleTrigger, CollapsiblePanel,
-} from "$lib/components/collapsible"`
+} from "#lib/components/collapsible"`
 
   const usageCode = `<script lang="ts">
   import {
     Collapsible, CollapsibleTrigger, CollapsiblePanel,
-  } from "$lib/components/collapsible"
+  } from "#lib/components/collapsible"
   import { ChevronDown } from "@lucide/svelte"
 <\/script>
 
@@ -47,7 +47,7 @@
 </Collapsible>`
 
   const controlledCode = `<script lang="ts">
-  import { createCollapsibleController } from "$lib/components/collapsible"
+  import { createCollapsibleController } from "#lib/components/collapsible"
 
   const collapsible = createCollapsibleController()
   let open = $state(false)

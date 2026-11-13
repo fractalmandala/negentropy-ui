@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Field,
     FieldLabel,
@@ -9,18 +9,18 @@
     FieldSet,
     FieldLegend,
     FieldGroup,
-  } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
 
   const installCode = `import {
   Field, FieldLabel, FieldDescription, FieldError, FieldControl,
   FieldSet, FieldLegend, FieldGroup,
-} from "$lib/components/field"`
+} from "#lib/components/field"`
 
   const usageCode = `<script lang="ts">
   import {
     Field, FieldLabel, FieldDescription, FieldError, FieldControl,
-  } from "$lib/components/field"
+  } from "#lib/components/field"
 <\/script>
 
 <Field name="username">
@@ -33,8 +33,8 @@
   const validationCode = `<script lang="ts">
   import {
     Field, FieldLabel, FieldDescription, FieldError, FieldControl,
-  } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
 
   let sent = $state("")
 

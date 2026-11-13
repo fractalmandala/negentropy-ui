@@ -5,7 +5,7 @@
     type ToolbarGroupState,
   } from "@ui-sdk/svelte/toolbar"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

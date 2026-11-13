@@ -5,7 +5,7 @@
   } from "@ui-sdk/svelte/calendar"
   import type { Snippet } from "svelte"
   import type { HTMLAttributes } from "svelte/elements"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

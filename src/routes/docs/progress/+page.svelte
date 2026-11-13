@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Progress,
     ProgressLabel,
@@ -7,8 +7,8 @@
     ProgressTrack,
     ProgressIndicator,
     type GaugeLabelDetails,
-  } from "$lib/components/progress"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/progress"
+  import { Button } from "#lib/components/button"
 
   const installCode = `import {
   Progress,
@@ -16,7 +16,7 @@
   ProgressValue,
   ProgressTrack,
   ProgressIndicator,
-} from "$lib/components/progress"`
+} from "#lib/components/progress"`
 
   const usageCode = `<script lang="ts">
   import {
@@ -25,7 +25,7 @@
     ProgressValue,
     ProgressTrack,
     ProgressIndicator,
-  } from "$lib/components/progress"
+  } from "#lib/components/progress"
 <\/script>
 
 <Progress value={60}>
@@ -37,7 +37,7 @@
 </Progress>`
 
   const steppingCode = `<script lang="ts">
-  import { Button } from "$lib/components/button"
+  import { Button } from "#lib/components/button"
 
   const total = 5
   let uploaded = $state(1)
@@ -124,7 +124,7 @@
 </Progress>`
 
   const valueLabelCode = `<script lang="ts">
-  import type { GaugeLabelDetails } from "$lib/components/progress"
+  import type { GaugeLabelDetails } from "#lib/components/progress"
 
   const valueLabel = (value: number | null, details: GaugeLabelDetails) =>
     \`\${value} of \${details.max} files, \${details.formatted}\`

@@ -5,7 +5,7 @@
     type CheckboxIndicatorState,
   } from "@ui-sdk/svelte/checkbox"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

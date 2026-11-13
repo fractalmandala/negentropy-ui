@@ -1,7 +1,7 @@
 <script lang="ts">
   import { CommandGroupLabel as CommandGroupLabelPrimitive } from "@ui-sdk/svelte/command"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

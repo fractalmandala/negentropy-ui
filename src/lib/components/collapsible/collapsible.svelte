@@ -5,8 +5,8 @@
     type CollapsibleState,
   } from "@ui-sdk/svelte/collapsible"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "group/collapsible flex w-full flex-col gap-2",

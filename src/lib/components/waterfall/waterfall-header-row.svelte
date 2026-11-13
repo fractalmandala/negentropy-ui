@@ -1,7 +1,7 @@
 <script lang="ts">
   import { WaterfallHeaderRow as WaterfallHeaderRowPrimitive } from "@ui-sdk/svelte/waterfall"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"div"> = $props()
 </script>

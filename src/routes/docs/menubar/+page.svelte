@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Menubar, createMenubarController } from "$lib/components/menubar"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Menubar, createMenubarController } from "#lib/components/menubar"
   import {
     Menu,
     MenuTrigger,
@@ -15,21 +15,21 @@
     MenuRadioGroup,
     MenuRadioItem,
     MenuGroupLabel,
-  } from "$lib/components/menu"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/menu"
+  import { Button } from "#lib/components/button"
   import { Check, ChevronRight } from "@lucide/svelte"
 
-  const installCode = `import { Menubar } from "$lib/components/menubar"
-import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"`
+  const installCode = `import { Menubar } from "#lib/components/menubar"
+import { Menu, MenuTrigger, MenuContent, MenuItem } from "#lib/components/menu"`
 
   const basicCode = `<script lang="ts">
   import { Check, ChevronRight } from "@lucide/svelte"
-  import { Menubar } from "$lib/components/menubar"
+  import { Menubar } from "#lib/components/menubar"
   import {
     Menu, MenuTrigger, MenuContent, MenuItem, MenuSeparator,
     MenuSub, MenuSubTrigger, MenuSubContent, MenuCheckboxItem,
     MenuItemIndicator, MenuRadioGroup, MenuRadioItem, MenuGroupLabel,
-  } from "$lib/components/menu"
+  } from "#lib/components/menu"
   let chosen = $state("none")
   let ruler = $state(false)
   let appearance = $state<string | null>("System")
@@ -94,8 +94,8 @@ import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"`
 </p>`
 
   const verticalCode = `<script lang="ts">
-  import { Menubar } from "$lib/components/menubar"
-  import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"
+  import { Menubar } from "#lib/components/menubar"
+  import { Menu, MenuTrigger, MenuContent, MenuItem } from "#lib/components/menu"
   let chosen = $state("none")
 <\/script>
 
@@ -113,9 +113,9 @@ import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"`
 <p class="text-sm text-muted">Chose {chosen}</p>`
 
   const controllerCode = `<script lang="ts">
-  import { Menubar, createMenubarController } from "$lib/components/menubar"
-  import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"
-  import { Button } from "$lib/components/button"
+  import { Menubar, createMenubarController } from "#lib/components/menubar"
+  import { Menu, MenuTrigger, MenuContent, MenuItem } from "#lib/components/menu"
+  import { Button } from "#lib/components/button"
   const bar = createMenubarController()
 <\/script>
 
@@ -145,8 +145,8 @@ import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"`
 </Menubar>`
 
   const loopCode = `<script lang="ts">
-  import { Menubar } from "$lib/components/menubar"
-  import { Menu, MenuTrigger, MenuContent, MenuItem } from "$lib/components/menu"
+  import { Menubar } from "#lib/components/menubar"
+  import { Menu, MenuTrigger, MenuContent, MenuItem } from "#lib/components/menu"
 <\/script>
 
 <Menubar loop={false} aria-label="Stops at the ends">

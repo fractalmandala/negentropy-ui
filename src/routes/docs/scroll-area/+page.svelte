@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     ScrollArea,
     ScrollAreaViewport,
@@ -9,8 +9,8 @@
     ScrollAreaCorner,
     ScrollAreaScrollToEnd,
     createScrollAreaController,
-  } from "$lib/components/scroll-area"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/scroll-area"
+  import { Button } from "#lib/components/button"
 
   const tags = Array.from({ length: 30 }, (_, i) => "v1.2.0-beta." + (30 - i))
 
@@ -35,12 +35,12 @@
   const installCode = `import {
   ScrollArea, ScrollAreaViewport, ScrollAreaContent,
   ScrollAreaScrollbar, ScrollAreaThumb, ScrollAreaCorner, ScrollAreaScrollToEnd,
-} from "$lib/components/scroll-area"`
+} from "#lib/components/scroll-area"`
 
   const usageCode = `<script lang="ts">
   import {
     ScrollArea, ScrollAreaViewport, ScrollAreaContent, ScrollAreaScrollbar, ScrollAreaThumb,
-  } from "$lib/components/scroll-area"
+  } from "#lib/components/scroll-area"
 
   const tags = Array.from({ length: 30 }, (_, i) => "v1.2.0-beta." + (30 - i))
 <\/script>
@@ -110,7 +110,7 @@
 </ScrollArea>`
 
   const controllerCode = `<script lang="ts">
-  import { createScrollAreaController } from "$lib/components/scroll-area"
+  import { createScrollAreaController } from "#lib/components/scroll-area"
 
   const controller = createScrollAreaController()
 <\/script>

@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Input,
     InputGroup,
     InputClear,
     createInputController,
-  } from "$lib/components/input"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/input"
+  import { Button } from "#lib/components/button"
   import { X, Search, RotateCcw, Trash2, Crosshair, Send } from "@lucide/svelte"
 
-  const installCode = `import { Input, InputGroup, InputClear } from "$lib/components/input"`
+  const installCode = `import { Input, InputGroup, InputClear } from "#lib/components/input"`
 
   const usageCode = `<script lang="ts">
-  import { Input } from "$lib/components/input"
+  import { Input } from "#lib/components/input"
 <\/script>
 
 <div class="flex w-64 flex-col gap-1.5">
@@ -21,8 +21,8 @@
 </div>`
 
   const controlledCode = `<script lang="ts">
-  import { Input } from "$lib/components/input"
-  import { Button } from "$lib/components/button"
+  import { Input } from "#lib/components/input"
+  import { Button } from "#lib/components/button"
 
   let name = $state("Hollis Grant")
 <\/script>
@@ -35,7 +35,7 @@
 </div>`
 
   const groupCode = `<script lang="ts">
-  import { Input, InputGroup, InputClear } from "$lib/components/input"
+  import { Input, InputGroup, InputClear } from "#lib/components/input"
   import { X } from "@lucide/svelte"
 <\/script>
 
@@ -52,7 +52,7 @@
 </div>`
 
   const searchCode = `<script lang="ts">
-  import { Input, InputGroup, InputClear } from "$lib/components/input"
+  import { Input, InputGroup, InputClear } from "#lib/components/input"
   import { Search, X } from "@lucide/svelte"
 <\/script>
 
@@ -77,7 +77,7 @@
 </div>`
 
   const filterCode = `<script lang="ts">
-  import { Input } from "$lib/components/input"
+  import { Input } from "#lib/components/input"
 <\/script>
 
 <div class="flex w-40 flex-col gap-1.5">
@@ -94,8 +94,8 @@
 </div>`
 
   const controllerCode = `<script lang="ts">
-  import { Input, createInputController } from "$lib/components/input"
-  import { Button } from "$lib/components/button"
+  import { Input, createInputController } from "#lib/components/input"
+  import { Button } from "#lib/components/button"
 
   const message = createInputController()
 <\/script>

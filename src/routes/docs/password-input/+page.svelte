@@ -1,26 +1,26 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     PasswordInput,
     PasswordInputControl,
     PasswordInputToggle,
     createPasswordInputController,
-  } from "$lib/components/password-input"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/password-input"
+  import { Button } from "#lib/components/button"
   import { Eye, EyeOff, Check, X, Lock, Wand2, Trash2, Crosshair } from "@lucide/svelte"
 
   const installCode = `import {
   PasswordInput,
   PasswordInputControl,
   PasswordInputToggle,
-} from "$lib/components/password-input"`
+} from "#lib/components/password-input"`
 
   const usageCode = `<script lang="ts">
   import {
     PasswordInput,
     PasswordInputControl,
     PasswordInputToggle,
-  } from "$lib/components/password-input"
+  } from "#lib/components/password-input"
   import { Eye, EyeOff } from "@lucide/svelte"
 <\/script>
 
@@ -163,8 +163,8 @@
 </div>`
 
   const controllerCode = `<script lang="ts">
-  import { createPasswordInputController } from "$lib/components/password-input"
-  import { Button } from "$lib/components/button"
+  import { createPasswordInputController } from "#lib/components/password-input"
+  import { Button } from "#lib/components/button"
 
   const password = createPasswordInputController()
 <\/script>

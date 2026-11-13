@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Command,
     CommandInput,
@@ -15,15 +15,15 @@
     CommandStatus,
     CommandPage,
     createCommandController,
-  } from "$lib/components/command"
+  } from "#lib/components/command"
   import {
     Dialog,
     DialogTrigger,
     DialogBackdrop,
     DialogContent,
     DialogTitle,
-  } from "$lib/components/dialog"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/dialog"
+  import { Button } from "#lib/components/button"
   import {
     Search,
     Calendar,
@@ -55,7 +55,7 @@
   CommandStatus,
   CommandPage,
   createCommandController,
-} from "$lib/components/command"`
+} from "#lib/components/command"`
 
   const usageCode = `<script lang="ts">
   import { Search } from "@lucide/svelte"
@@ -178,7 +178,7 @@
 <p class="text-sm text-muted">Page: {pages.at(-1) ?? "root"}</p>`
 
   const paletteCode = `<script lang="ts">
-  import { Dialog, DialogBackdrop, DialogContent, DialogTitle, DialogTrigger } from "$lib/components/dialog"
+  import { Dialog, DialogBackdrop, DialogContent, DialogTitle, DialogTrigger } from "#lib/components/dialog"
 
   let open = $state(false)
 
@@ -249,7 +249,7 @@
 </Command>`
 
   const controlledCode = `<script lang="ts">
-  import { createCommandController } from "$lib/components/command"
+  import { createCommandController } from "#lib/components/command"
 
   const controller = createCommandController()
   let query = $state("")

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onDestroy } from "svelte"
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     ImageCropper,
     ImageCropperFlip,
@@ -14,8 +14,8 @@
     createImageCropperController,
     cropImage,
     type ImageCrop,
-  } from "$lib/components/image-cropper"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/image-cropper"
+  import { Button } from "#lib/components/button"
   import { FlipHorizontal, FlipVertical, RotateCw } from "@lucide/svelte"
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420"><rect width="640" height="420" fill="#e5e5e5"/><circle cx="460" cy="150" r="56" fill="#fafafa"/><path d="M0 280 120 170l110 100 120-130 130 125 90-60 70 40v175H0z" fill="#a3a3a3"/><path d="M0 330l160-80 120 70 150-80 210 85v95H0z" fill="#525252"/><path d="M0 380q160-35 320-10t320-5v55H0z" fill="#262626"/></svg>`
@@ -33,13 +33,13 @@
   const installCode = `import {
   ImageCropper, ImageCropperViewport, ImageCropperImage,
   ImageCropperSelection, ImageCropperHandle,
-} from "$lib/components/image-cropper"`
+} from "#lib/components/image-cropper"`
 
   const usageCode = `<script lang="ts">
   import {
     ImageCropper, ImageCropperViewport, ImageCropperImage,
     ImageCropperSelection, ImageCropperHandle,
-  } from "$lib/components/image-cropper"
+  } from "#lib/components/image-cropper"
 
   const svg = \`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420"><rect width="640" height="420" fill="#e5e5e5"/><circle cx="460" cy="150" r="56" fill="#fafafa"/><path d="M0 280 120 170l110 100 120-130 130 125 90-60 70 40v175H0z" fill="#a3a3a3"/><path d="M0 330l160-80 120 70 150-80 210 85v95H0z" fill="#525252"/><path d="M0 380q160-35 320-10t320-5v55H0z" fill="#262626"/></svg>\`
   const photo = \`data:image/svg+xml,\${encodeURIComponent(svg)}\`
@@ -56,7 +56,7 @@
 </ImageCropper>`
 
   const basicCode = `<script lang="ts">
-  import { cropImage, type ImageCrop } from "$lib/components/image-cropper"
+  import { cropImage, type ImageCrop } from "#lib/components/image-cropper"
 
   const photo = \`data:image/svg+xml,\${encodeURIComponent(svg)}\`
   const handles = ["nw", "n", "ne", "e", "se", "s", "sw", "w"] as const
@@ -117,7 +117,7 @@
 </ImageCropper>`
 
   const avatarCode = `<script lang="ts">
-  import { cropImage, type ImageCrop } from "$lib/components/image-cropper"
+  import { cropImage, type ImageCrop } from "#lib/components/image-cropper"
 
   let crop = $state<ImageCrop>()
   let avatar = $state<string>()
@@ -146,7 +146,7 @@
 </ImageCropper>`
 
   const controlledCode = `<script lang="ts">
-  import { createImageCropperController, type ImageCrop } from "$lib/components/image-cropper"
+  import { createImageCropperController, type ImageCrop } from "#lib/components/image-cropper"
 
   const controller = createImageCropperController()
   let crop = $state<ImageCrop>()

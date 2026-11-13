@@ -5,8 +5,8 @@
     type ListboxState,
     type ListboxValue,
   } from "@ui-sdk/svelte/listbox"
-  import { cn } from "$lib/utils/cn"
-  import type { PartPropsPortable } from "$lib/utils/part-render"
+  import { cn } from "#lib/utils/cn"
+  import type { PartPropsPortable } from "#lib/utils/part-render"
 
   let {
     value = $bindable(),

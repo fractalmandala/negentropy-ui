@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     DateInput,
     DateInputSegment,
     createDateInputController,
-  } from "$lib/components/date-input"
-  import { Field, FieldLabel, FieldDescription, FieldError } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  } from "#lib/components/date-input"
+  import { Field, FieldLabel, FieldDescription, FieldError } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
 
-  const installCode = `import { DateInput, DateInputSegment } from "$lib/components/date-input"`
+  const installCode = `import { DateInput, DateInputSegment } from "#lib/components/date-input"`
 
   const usageCode = `<script lang="ts">
-  import { DateInput } from "$lib/components/date-input"
-  import { Field, FieldLabel } from "$lib/components/field"
+  import { DateInput } from "#lib/components/date-input"
+  import { Field, FieldLabel } from "#lib/components/field"
 <\/script>
 
 <Field>
@@ -53,7 +53,7 @@
 <p class="text-sm text-muted">value: {value ?? "null"}</p>`
 
   const controllerCode = `<script lang="ts">
-  import { createDateInputController } from "$lib/components/date-input"
+  import { createDateInputController } from "#lib/components/date-input"
   const publish = createDateInputController()
 <\/script>
 

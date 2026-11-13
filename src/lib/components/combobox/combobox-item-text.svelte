@@ -1,7 +1,7 @@
 <script lang="ts">
   import { ComboboxItemText as ComboboxItemTextPrimitive, type ComboboxItemTextState } from "@ui-sdk/svelte/combobox"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"span", ComboboxItemTextState> = $props()
 </script>

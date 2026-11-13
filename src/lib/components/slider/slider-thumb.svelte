@@ -1,7 +1,7 @@
 <script lang="ts">
   import { SliderThumb as SliderThumbPrimitive, type SliderThumbProps, type SliderThumbState } from "@ui-sdk/svelte/slider"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }:
     PartProps<"div", SliderThumbState> & SliderThumbProps = $props()

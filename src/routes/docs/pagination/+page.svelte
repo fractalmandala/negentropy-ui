@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
   import {
     Pagination,
     PaginationList,
@@ -10,7 +10,7 @@
     PaginationFirst,
     PaginationLast,
     PaginationEllipsis,
-  } from "$lib/components/pagination"
+  } from "#lib/components/pagination"
   import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Ellipsis } from "@lucide/svelte"
 
   const installCode = `import {
@@ -23,7 +23,7 @@
   PaginationFirst,
   PaginationLast,
   PaginationEllipsis,
-} from "$lib/components/pagination"`
+} from "#lib/components/pagination"`
 
   const usageCode = `<script lang="ts">
   import { ChevronLeft, ChevronRight, Ellipsis } from "@lucide/svelte"
@@ -35,7 +35,7 @@
     PaginationList,
     PaginationNext,
     PaginationPrevious,
-  } from "$lib/components/pagination"
+  } from "#lib/components/pagination"
 <\/script>
 
 <Pagination aria-label="Pagination" pageCount={10}>
@@ -75,7 +75,7 @@
     PaginationList,
     PaginationNext,
     PaginationPrevious,
-  } from "$lib/components/pagination"
+  } from "#lib/components/pagination"
 
   let page = $state(1)
   const total = 95
@@ -121,7 +121,7 @@
     PaginationList,
     PaginationNext,
     PaginationPrevious,
-  } from "$lib/components/pagination"
+  } from "#lib/components/pagination"
 <\/script>
 
 <Pagination aria-label="Pagination" pageCount={20} defaultPage={10} siblings={2}>
@@ -153,7 +153,7 @@
 </Pagination>`
 
   const variantsCode = `<script lang="ts">
-  import { Pagination, PaginationItem, PaginationLink, PaginationList } from "$lib/components/pagination"
+  import { Pagination, PaginationItem, PaginationLink, PaginationList } from "#lib/components/pagination"
 <\/script>
 
 <div class="space-y-3">

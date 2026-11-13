@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "$lib/components/slider"
-  import { Field, FieldLabel } from "$lib/components/field"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "#lib/components/slider"
+  import { Field, FieldLabel } from "#lib/components/field"
+  import { Button } from "#lib/components/button"
 
-  const installCode = `import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "$lib/components/slider"`
+  const installCode = `import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "#lib/components/slider"`
 
   const usageCode = `<script lang="ts">
-  import { Field, FieldLabel } from "$lib/components/field"
-  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "$lib/components/slider"
+  import { Field, FieldLabel } from "#lib/components/field"
+  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "#lib/components/slider"
 <\/script>
 
 <Field>
@@ -27,8 +27,8 @@
 </Field>`
 
   const rangeCode = `<script lang="ts">
-  import { Field, FieldLabel } from "$lib/components/field"
-  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "$lib/components/slider"
+  import { Field, FieldLabel } from "#lib/components/field"
+  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "#lib/components/slider"
 <\/script>
 
 <Field>
@@ -52,7 +52,7 @@
 </Field>`
 
   const verticalCode = `<script lang="ts">
-  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb } from "$lib/components/slider"
+  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb } from "#lib/components/slider"
 <\/script>
 
 <div class="flex items-end gap-8">
@@ -81,8 +81,8 @@
 </div>`
 
   const controlledCode = `<script lang="ts">
-  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "$lib/components/slider"
-  import { Button } from "$lib/components/button"
+  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "#lib/components/slider"
+  import { Button } from "#lib/components/button"
 
   let value = $state(60)
 <\/script>
@@ -104,8 +104,8 @@
 </div>`
 
   const formatCode = `<script lang="ts">
-  import { Field, FieldLabel } from "$lib/components/field"
-  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "$lib/components/slider"
+  import { Field, FieldLabel } from "#lib/components/field"
+  import { Slider, SliderControl, SliderTrack, SliderIndicator, SliderThumb, SliderValue } from "#lib/components/slider"
 <\/script>
 
 <Field>

@@ -5,7 +5,7 @@
     type ColorPickerState,
   } from "@ui-sdk/svelte/color-picker"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let {
     class: className,

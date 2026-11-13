@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "$lib/docs"
-  import { Separator } from "$lib/components/separator"
-  import { Button } from "$lib/components/button"
+  import { PageHeader, Section, Demo, CodeBlock, PropsTable } from "#lib/docs"
+  import { Separator } from "#lib/components/separator"
+  import { Button } from "#lib/components/button"
 
-  const installCode = `import { Separator } from "$lib/components/separator"`
+  const installCode = `import { Separator } from "#lib/components/separator"`
 
   const usageCode = `<script lang="ts">
-  import { Separator } from "$lib/components/separator"
+  import { Separator } from "#lib/components/separator"
 <\/script>
 
 <div class="space-y-3">

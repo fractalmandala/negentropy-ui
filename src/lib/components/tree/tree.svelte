@@ -6,8 +6,8 @@
     type TreeOptions,
     type TreeState,
   } from "@ui-sdk/svelte/tree"
-  import { cn } from "$lib/utils/cn"
-  import type { PartPropsPortable } from "$lib/utils/part-render"
+  import { cn } from "#lib/utils/cn"
+  import type { PartPropsPortable } from "#lib/utils/part-render"
   import TreeItems from "./tree-items.svelte"
 
   let {

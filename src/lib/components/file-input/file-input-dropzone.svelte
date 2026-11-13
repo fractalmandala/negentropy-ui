@@ -5,8 +5,8 @@
     type FileInputDropzoneState,
   } from "@ui-sdk/svelte/file-input"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
-  import { defineVariants } from "$lib/utils/variants"
+  import { cn } from "#lib/utils/cn"
+  import { defineVariants } from "#lib/utils/variants"
 
   const styles = defineVariants({
     base: "flex min-w-0 flex-col items-center gap-1 self-stretch rounded-lg border border-line bg-surface px-6 py-8 text-center transition-colors [&>svg]:mb-2 [&>svg]:size-6 [&>svg]:text-muted data-[dragging]:border-accent data-[dragging]:bg-accent-soft data-[drag-reject]:border-danger data-[drag-reject]:bg-danger/10 data-[drag-reject]:text-danger data-[drag-reject]:[&>svg]:text-danger data-[disabled]:text-faint",

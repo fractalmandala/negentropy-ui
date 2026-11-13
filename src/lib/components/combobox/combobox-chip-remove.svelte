@@ -1,7 +1,7 @@
 <script lang="ts">
   import { ComboboxChipRemove as ComboboxChipRemovePrimitive, type ComboboxClearState } from "@ui-sdk/svelte/combobox"
   import type { PartProps } from "@ui-sdk/svelte"
-  import { cn } from "$lib/utils/cn"
+  import { cn } from "#lib/utils/cn"
 
   let { class: className, ...rest }: PartProps<"button", ComboboxClearState> = $props()
 </script>
