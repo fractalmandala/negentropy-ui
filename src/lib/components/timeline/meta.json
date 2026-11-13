@@ -1,0 +1,17 @@
+{
+  "name": "Timeline",
+  "slug": "timeline",
+  "description": "Dated events in order, with one tab stop and arrow keys between them.",
+  "category": "Data Display",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/timeline",
+  "parts": [
+    "Timeline",
+    "TimelineItem",
+    "TimelineMarker",
+    "TimelineConnector",
+    "TimelineTitle",
+    "TimelineTime",
+    "TimelineDescription"
+  ]
+}

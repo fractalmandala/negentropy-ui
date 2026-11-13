@@ -1,0 +1,9 @@
+{
+  "name": "Hover Card",
+  "slug": "hover-card",
+  "description": "A preview of what a link points to, shown when the pointer rests on it or keyboard focus stays on it.",
+  "category": "Overlay",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/hover-card",
+  "parts": ["HoverCard", "HoverCardTrigger", "HoverCardContent", "HoverCardArrow"]
+}

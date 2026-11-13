@@ -1,0 +1,28 @@
+{
+  "name": "Menu",
+  "slug": "menu",
+  "description": "Choose actions and settings from a button or a right-click.",
+  "category": "Navigation",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/menu",
+  "parts": [
+    "Menu",
+    "MenuTrigger",
+    "MenuContextTrigger",
+    "MenuContent",
+    "MenuItem",
+    "MenuCheckboxItem",
+    "MenuRadioGroup",
+    "MenuRadioItem",
+    "MenuItemIndicator",
+    "MenuItemIcon",
+    "MenuGroup",
+    "MenuGroupLabel",
+    "MenuSeparator",
+    "MenuShortcut",
+    "MenuSub",
+    "MenuSubTrigger",
+    "MenuSubContent",
+    "MenuItems"
+  ]
+}

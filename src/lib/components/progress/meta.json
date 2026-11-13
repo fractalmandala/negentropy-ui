@@ -1,0 +1,9 @@
+{
+  "name": "Progress",
+  "slug": "progress",
+  "description": "Show how far a task has come, or that it's under way when the amount is unknown.",
+  "category": "Feedback",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/progress",
+  "parts": ["Progress", "ProgressLabel", "ProgressValue", "ProgressTrack", "ProgressIndicator"]
+}

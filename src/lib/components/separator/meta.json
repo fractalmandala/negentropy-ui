@@ -1,0 +1,9 @@
+{
+  "name": "Separator",
+  "slug": "separator",
+  "description": "Divide groups of content with a horizontal or vertical line.",
+  "category": "Layout",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/separator",
+  "parts": ["Separator"]
+}

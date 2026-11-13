@@ -1,0 +1,21 @@
+{
+  "name": "Calendar",
+  "slug": "calendar",
+  "description": "A month grid for choosing one date, several dates, or a range.",
+  "category": "Date & Time",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/calendar",
+  "parts": [
+    "Calendar",
+    "CalendarPrevious",
+    "CalendarHeading",
+    "CalendarNext",
+    "CalendarMonthSelect",
+    "CalendarYearSelect",
+    "CalendarGrid",
+    "CalendarWeekdays",
+    "CalendarWeekday",
+    "CalendarWeeks",
+    "CalendarDay"
+  ]
+}

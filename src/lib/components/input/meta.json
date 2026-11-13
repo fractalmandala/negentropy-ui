@@ -1,0 +1,9 @@
+{
+  "name": "Input",
+  "slug": "input",
+  "description": "A single-line text field with a clear button and text around it.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/input",
+  "parts": ["Input", "InputGroup", "InputClear"]
+}

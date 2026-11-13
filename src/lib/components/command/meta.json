@@ -1,0 +1,23 @@
+{
+  "name": "Command",
+  "slug": "command",
+  "description": "A search field over an always-open list of commands, with keyboard navigation, pages and shortcuts.",
+  "category": "Overlay",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/command",
+  "parts": [
+    "Command",
+    "CommandInput",
+    "CommandList",
+    "CommandGroup",
+    "CommandGroupLabel",
+    "CommandItem",
+    "CommandItemIcon",
+    "CommandItemText",
+    "CommandShortcut",
+    "CommandSeparator",
+    "CommandEmpty",
+    "CommandStatus",
+    "CommandPage"
+  ]
+}

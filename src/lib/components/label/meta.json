@@ -1,0 +1,9 @@
+{
+  "name": "Label",
+  "slug": "label",
+  "description": "Name any control with a label, and let a press on the label reach it.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/label",
+  "parts": ["Label"]
+}

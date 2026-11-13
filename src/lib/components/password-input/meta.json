@@ -1,0 +1,9 @@
+{
+  "name": "Password Input",
+  "slug": "password-input",
+  "description": "A password field with a reveal toggle that keeps the caret, offers the right password to managers and hides again on submit.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/password-input",
+  "parts": ["PasswordInput", "PasswordInputControl", "PasswordInputToggle"]
+}

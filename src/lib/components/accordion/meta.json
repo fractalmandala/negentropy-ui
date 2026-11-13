@@ -1,0 +1,9 @@
+{
+  "name": "Accordion",
+  "slug": "accordion",
+  "description": "Show and hide sections of content from their headings.",
+  "category": "Navigation",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/accordion",
+  "parts": ["Accordion", "AccordionItem", "AccordionHeader", "AccordionTrigger", "AccordionPanel"]
+}

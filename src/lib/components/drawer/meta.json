@@ -1,0 +1,9 @@
+{
+  "name": "Drawer",
+  "slug": "drawer",
+  "description": "A sheet that slides in from an edge and can rest at several heights.",
+  "category": "Overlay",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/drawer",
+  "parts": ["Drawer", "DrawerTrigger", "DrawerBackdrop", "DrawerContent", "DrawerHandle", "DrawerTitle", "DrawerDescription", "DrawerClose", "DrawerShortcut", "DrawerOutlet"]
+}

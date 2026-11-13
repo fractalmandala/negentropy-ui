@@ -1,0 +1,23 @@
+{
+  "name": "Trigger Menu",
+  "slug": "trigger-menu",
+  "description": "Suggestions at the caret when you type a trigger like @, / or #.",
+  "category": "Navigation",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/trigger-menu",
+  "parts": [
+    "TriggerMenu",
+    "TriggerMenuInput",
+    "TriggerMenuContent",
+    "TriggerMenuList",
+    "TriggerMenuItem",
+    "TriggerMenuItemIcon",
+    "TriggerMenuGroup",
+    "TriggerMenuGroupLabel",
+    "TriggerMenuSeparator",
+    "TriggerMenuEmpty",
+    "TriggerMenuStatus",
+    "TriggerMenuHint",
+    "TriggerMenuItems"
+  ]
+}

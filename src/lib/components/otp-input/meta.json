@@ -1,0 +1,9 @@
+{
+  "name": "OTP Input",
+  "slug": "otp-input",
+  "description": "Enter a one-time code with support for pasting, autofill, and native form validation.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/otp-input",
+  "parts": ["OTPInput", "OTPInputGroup", "OTPInputSlot", "OTPInputSeparator"]
+}

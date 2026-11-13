@@ -1,0 +1,9 @@
+{
+  "name": "Segmented Control",
+  "slug": "segmented-control",
+  "description": "Pick one of a few options, with an indicator that slides to the choice.",
+  "category": "Navigation",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/segmented-control",
+  "parts": ["SegmentedControl", "SegmentedControlItem", "SegmentedControlIndicator"]
+}

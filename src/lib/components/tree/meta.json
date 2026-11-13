@@ -1,0 +1,17 @@
+{
+  "name": "Tree",
+  "slug": "tree",
+  "description": "A hierarchy of items that expand, collapse, select and check.",
+  "category": "Data Display",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/tree",
+  "parts": [
+    "Tree",
+    "TreeItems",
+    "TreeItem",
+    "TreeGroup",
+    "TreeItemLabel",
+    "TreeItemIndicator",
+    "TreeItemCheckbox"
+  ]
+}

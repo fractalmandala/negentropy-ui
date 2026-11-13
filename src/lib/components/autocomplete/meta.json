@@ -1,0 +1,26 @@
+{
+  "name": "Autocomplete",
+  "slug": "autocomplete",
+  "description": "A text field that suggests as you type. The text itself is the value.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/autocomplete",
+  "parts": [
+    "Autocomplete",
+    "AutocompleteLabel",
+    "AutocompleteInput",
+    "AutocompleteTrigger",
+    "AutocompleteClear",
+    "AutocompleteContent",
+    "AutocompleteList",
+    "AutocompleteItem",
+    "AutocompleteItemText",
+    "AutocompleteItemIcon",
+    "AutocompleteGroup",
+    "AutocompleteGroupLabel",
+    "AutocompleteSeparator",
+    "AutocompleteEmpty",
+    "AutocompleteStatus",
+    "AutocompleteArrow"
+  ]
+}

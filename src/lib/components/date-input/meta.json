@@ -1,0 +1,9 @@
+{
+  "name": "Date Input",
+  "slug": "date-input",
+  "description": "A segmented field for typing a date one part at a time, in the locale's order.",
+  "category": "Date & Time",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/date-input",
+  "parts": ["DateInput", "DateInputSegment"]
+}

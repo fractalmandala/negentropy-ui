@@ -1,0 +1,9 @@
+{
+  "name": "Toggle",
+  "slug": "toggle",
+  "description": "A button that stays pressed, alone or in a group with arrow-key navigation.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/toggle",
+  "parts": ["Toggle", "ToggleIcon", "ToggleGroup"]
+}

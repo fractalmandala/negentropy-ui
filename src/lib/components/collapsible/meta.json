@@ -1,0 +1,9 @@
+{
+  "name": "Collapsible",
+  "slug": "collapsible",
+  "description": "Show and hide one panel of content, and animate its height.",
+  "category": "Layout",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/collapsible",
+  "parts": ["Collapsible", "CollapsibleTrigger", "CollapsiblePanel"]
+}

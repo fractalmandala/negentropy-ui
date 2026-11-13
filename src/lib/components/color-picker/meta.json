@@ -1,0 +1,22 @@
+{
+  "name": "Color Picker",
+  "slug": "color-picker",
+  "description": "Choose a color by dragging an area and sliders, typing any CSS color, or picking a preset.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/color-picker",
+  "parts": [
+    "ColorPicker",
+    "ColorPickerArea",
+    "ColorPickerAreaCanvas",
+    "ColorPickerAreaThumb",
+    "ColorPickerSlider",
+    "ColorPickerSliderThumb",
+    "ColorPickerSwatch",
+    "ColorPickerInput",
+    "ColorPickerChannelInput",
+    "ColorPickerEyeDropper",
+    "ColorPickerSwatches",
+    "ColorPickerSwatchItem"
+  ]
+}

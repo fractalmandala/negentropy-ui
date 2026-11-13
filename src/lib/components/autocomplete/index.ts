@@ -1,0 +1,43 @@
+export { default as Autocomplete } from "./autocomplete.svelte"
+export { default as AutocompleteLabel } from "./autocomplete-label.svelte"
+export { default as AutocompleteInput } from "./autocomplete-input.svelte"
+export { default as AutocompleteTrigger } from "./autocomplete-trigger.svelte"
+export { default as AutocompleteClear } from "./autocomplete-clear.svelte"
+export { default as AutocompleteContent } from "./autocomplete-content.svelte"
+export { default as AutocompleteList } from "./autocomplete-list.svelte"
+export { default as AutocompleteItem } from "./autocomplete-item.svelte"
+export { default as AutocompleteItemText } from "./autocomplete-item-text.svelte"
+export { default as AutocompleteItemIcon } from "./autocomplete-item-icon.svelte"
+export { default as AutocompleteGroup } from "./autocomplete-group.svelte"
+export { default as AutocompleteGroupLabel } from "./autocomplete-group-label.svelte"
+export { default as AutocompleteSeparator } from "./autocomplete-separator.svelte"
+export { default as AutocompleteEmpty } from "./autocomplete-empty.svelte"
+export { default as AutocompleteStatus } from "./autocomplete-status.svelte"
+export { default as AutocompleteArrow } from "./autocomplete-arrow.svelte"
+export { createAutocompleteController } from "@ui-sdk/svelte/autocomplete"
+export type {
+  AutocompleteApi,
+  AutocompleteArrowState,
+  AutocompleteChangeOptions,
+  AutocompleteClearProps,
+  AutocompleteClearState,
+  AutocompleteContentProps,
+  AutocompleteContentState,
+  AutocompleteController,
+  AutocompleteEmptyState,
+  AutocompleteInputState,
+  AutocompleteItemIconProps,
+  AutocompleteItemIconState,
+  AutocompleteItemProps,
+  AutocompleteItemState,
+  AutocompleteItemTextState,
+  AutocompleteOptions,
+  AutocompleteStatusState,
+  AutocompleteSubmitDetails,
+  AutocompleteTriggerState,
+  ListData,
+  ListFilter,
+  ListItem,
+  MatchSegment,
+  SearchFilter,
+} from "@ui-sdk/svelte/autocomplete"

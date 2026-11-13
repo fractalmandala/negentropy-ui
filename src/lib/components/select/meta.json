@@ -1,0 +1,30 @@
+{
+  "name": "Select",
+  "slug": "select",
+  "description": "Choose one value or several from a popup list, with typeahead, search and groups.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/select",
+  "parts": [
+    "Select",
+    "SelectLabel",
+    "SelectTrigger",
+    "SelectValue",
+    "SelectValueIcon",
+    "SelectContent",
+    "SelectList",
+    "SelectItem",
+    "SelectItemText",
+    "SelectItemIndicator",
+    "SelectItemIcon",
+    "SelectGroup",
+    "SelectGroupLabel",
+    "SelectSeparator",
+    "SelectInput",
+    "SelectEmpty",
+    "SelectStatus",
+    "SelectSelectAll",
+    "SelectClear",
+    "SelectArrow"
+  ]
+}

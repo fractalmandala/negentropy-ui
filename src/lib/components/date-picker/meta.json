@@ -1,0 +1,27 @@
+{
+  "name": "Date Picker",
+  "slug": "date-picker",
+  "description": "Type a date or choose one from a calendar popup, with ranges and forms.",
+  "category": "Date & Time",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/date-picker",
+  "parts": [
+    "DatePicker",
+    "DatePickerInput",
+    "DatePickerTrigger",
+    "DatePickerContent",
+    "DatePickerHint",
+    "DatePickerClear",
+    "DatePickerPreset",
+    "CalendarPrevious",
+    "CalendarHeading",
+    "CalendarNext",
+    "CalendarMonthSelect",
+    "CalendarYearSelect",
+    "CalendarGrid",
+    "CalendarWeekdays",
+    "CalendarWeekday",
+    "CalendarWeeks",
+    "CalendarDay"
+  ]
+}

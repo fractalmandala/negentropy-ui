@@ -1,0 +1,19 @@
+{
+  "name": "Navigation Menu",
+  "slug": "navigation-menu",
+  "description": "A site navigation landmark whose triggers reveal panels of links.",
+  "category": "Navigation",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/navigation-menu",
+  "parts": [
+    "NavigationMenu",
+    "NavigationMenuList",
+    "NavigationMenuItem",
+    "NavigationMenuTrigger",
+    "NavigationMenuContent",
+    "NavigationMenuLink",
+    "NavigationMenuLinkIcon",
+    "NavigationMenuViewport",
+    "NavigationMenuIndicator"
+  ]
+}

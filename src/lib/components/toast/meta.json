@@ -1,0 +1,9 @@
+{
+  "name": "Toast",
+  "slug": "toast",
+  "description": "Brief messages that stack in a corner, announce themselves, and can be swiped, acted on or dismissed.",
+  "category": "Feedback",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/toast",
+  "parts": ["ToastRegion", "Toast", "ToastTitle", "ToastDescription", "ToastAction", "ToastClose"]
+}

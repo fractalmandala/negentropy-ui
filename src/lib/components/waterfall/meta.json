@@ -1,0 +1,21 @@
+{
+  "name": "Waterfall",
+  "slug": "waterfall",
+  "description": "A trace's spans as bars on a shared time axis, in a treegrid you can walk.",
+  "category": "Layout",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/waterfall",
+  "parts": [
+    "Waterfall",
+    "WaterfallHeaderRow",
+    "WaterfallColumnHeader",
+    "WaterfallAxis",
+    "WaterfallTick",
+    "WaterfallMark",
+    "WaterfallRow",
+    "WaterfallRowHeader",
+    "WaterfallIndicator",
+    "WaterfallCell",
+    "WaterfallBar"
+  ]
+}

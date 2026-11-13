@@ -1,0 +1,9 @@
+{
+  "name": "Button",
+  "slug": "button",
+  "description": "Run an action, show that it's working, and keep it reachable when disabled.",
+  "category": "General",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/button",
+  "parts": ["Button"]
+}

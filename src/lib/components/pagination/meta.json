@@ -1,0 +1,9 @@
+{
+  "name": "Pagination",
+  "slug": "pagination",
+  "description": "Navigate pages with buttons, links, or your router.",
+  "category": "Navigation",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/pagination",
+  "parts": ["Pagination", "PaginationList", "PaginationItem", "PaginationLink", "PaginationPrevious", "PaginationNext", "PaginationFirst", "PaginationLast", "PaginationEllipsis"]
+}

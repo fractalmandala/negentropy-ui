@@ -1,0 +1,17 @@
+{
+  "name": "Number Input",
+  "slug": "number-input",
+  "description": "A numeric field with step buttons, keyboard stepping, locale formatting and a drag-to-scrub label.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/number-input",
+  "parts": [
+    "NumberInput",
+    "NumberInputGroup",
+    "NumberInputControl",
+    "NumberInputDecrement",
+    "NumberInputIncrement",
+    "NumberInputScrubArea",
+    "NumberInputScrubAreaCursor"
+  ]
+}

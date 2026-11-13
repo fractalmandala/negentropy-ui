@@ -1,0 +1,9 @@
+{
+  "name": "Token Input",
+  "slug": "token-input",
+  "description": "Mix editable text with tokens for files, people, tags, and other references.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/token-input",
+  "parts": ["TokenInput", "TokenInputEditor", "TokenInputToken", "TokenInputTokenRemove"]
+}

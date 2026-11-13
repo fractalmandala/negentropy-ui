@@ -1,0 +1,9 @@
+{
+  "name": "Field",
+  "slug": "field",
+  "description": "Connect a form control to its label, description and validation errors.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/field",
+  "parts": ["Field", "FieldLabel", "FieldDescription", "FieldError", "FieldControl", "FieldSet", "FieldLegend", "FieldGroup"]
+}

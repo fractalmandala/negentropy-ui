@@ -1,0 +1,9 @@
+{
+  "name": "Meter",
+  "slug": "meter",
+  "description": "Show a measurement within a known range, such as storage used or an account quota.",
+  "category": "Data Display",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/meter",
+  "parts": ["Meter", "MeterLabel", "MeterValue", "MeterTrack", "MeterIndicator"]
+}

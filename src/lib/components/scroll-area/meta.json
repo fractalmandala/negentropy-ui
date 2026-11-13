@@ -1,0 +1,17 @@
+{
+  "name": "Scroll Area",
+  "slug": "scroll-area",
+  "description": "A scrolling region with styled scrollbars, edge state and follow-to-end.",
+  "category": "Layout",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/scroll-area",
+  "parts": [
+    "ScrollArea",
+    "ScrollAreaViewport",
+    "ScrollAreaContent",
+    "ScrollAreaScrollbar",
+    "ScrollAreaThumb",
+    "ScrollAreaCorner",
+    "ScrollAreaScrollToEnd"
+  ]
+}

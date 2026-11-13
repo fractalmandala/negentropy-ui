@@ -1,0 +1,9 @@
+{
+  "name": "Avatar",
+  "slug": "avatar",
+  "description": "An image with initials or an icon while it loads, and after it fails.",
+  "category": "Data Display",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/avatar",
+  "parts": ["Avatar", "AvatarImage", "AvatarFallback"]
+}

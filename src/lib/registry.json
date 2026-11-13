@@ -1,0 +1,929 @@
+{
+  "generated": true,
+  "count": 54,
+  "categories": [
+    "General",
+    "Forms",
+    "Date & Time",
+    "Data Display",
+    "Feedback",
+    "Overlay",
+    "Navigation",
+    "Layout",
+    "Media"
+  ],
+  "components": [
+    {
+      "name": "Button",
+      "slug": "button",
+      "description": "Run an action, show that it's working, and keep it reachable when disabled.",
+      "category": "General",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/button",
+      "parts": [
+        "Button"
+      ]
+    },
+    {
+      "name": "Autocomplete",
+      "slug": "autocomplete",
+      "description": "A text field that suggests as you type. The text itself is the value.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/autocomplete",
+      "parts": [
+        "Autocomplete",
+        "AutocompleteLabel",
+        "AutocompleteInput",
+        "AutocompleteTrigger",
+        "AutocompleteClear",
+        "AutocompleteContent",
+        "AutocompleteList",
+        "AutocompleteItem",
+        "AutocompleteItemText",
+        "AutocompleteItemIcon",
+        "AutocompleteGroup",
+        "AutocompleteGroupLabel",
+        "AutocompleteSeparator",
+        "AutocompleteEmpty",
+        "AutocompleteStatus",
+        "AutocompleteArrow"
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "slug": "checkbox",
+      "description": "Choose one or more options, on their own or as a group with a select-all parent.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/checkbox",
+      "parts": [
+        "Checkbox",
+        "CheckboxIndicator",
+        "CheckboxGroup"
+      ]
+    },
+    {
+      "name": "Color Picker",
+      "slug": "color-picker",
+      "description": "Choose a color by dragging an area and sliders, typing any CSS color, or picking a preset.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/color-picker",
+      "parts": [
+        "ColorPicker",
+        "ColorPickerArea",
+        "ColorPickerAreaCanvas",
+        "ColorPickerAreaThumb",
+        "ColorPickerSlider",
+        "ColorPickerSliderThumb",
+        "ColorPickerSwatch",
+        "ColorPickerInput",
+        "ColorPickerChannelInput",
+        "ColorPickerEyeDropper",
+        "ColorPickerSwatches",
+        "ColorPickerSwatchItem"
+      ]
+    },
+    {
+      "name": "Combobox",
+      "slug": "combobox",
+      "description": "A text input that filters a list as you type, with chips for several values.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/combobox",
+      "parts": [
+        "Combobox",
+        "ComboboxLabel",
+        "ComboboxInput",
+        "ComboboxTrigger",
+        "ComboboxClear",
+        "ComboboxChips",
+        "ComboboxChip",
+        "ComboboxChipRemove",
+        "ComboboxChipsOverflow",
+        "ComboboxValue",
+        "ComboboxValueIcon",
+        "ComboboxContent",
+        "ComboboxList",
+        "ComboboxItem",
+        "ComboboxItemText",
+        "ComboboxItemIndicator",
+        "ComboboxItemIcon",
+        "ComboboxGroup",
+        "ComboboxGroupLabel",
+        "ComboboxSeparator",
+        "ComboboxEmpty",
+        "ComboboxStatus",
+        "ComboboxSelectAll",
+        "ComboboxCreate",
+        "ComboboxArrow"
+      ]
+    },
+    {
+      "name": "Field",
+      "slug": "field",
+      "description": "Connect a form control to its label, description and validation errors.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/field",
+      "parts": [
+        "Field",
+        "FieldLabel",
+        "FieldDescription",
+        "FieldError",
+        "FieldControl",
+        "FieldSet",
+        "FieldLegend",
+        "FieldGroup"
+      ]
+    },
+    {
+      "name": "File Input",
+      "slug": "file-input",
+      "description": "Choose, drop or paste files, validate them, and submit them with a form.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/file-input",
+      "parts": [
+        "FileInput",
+        "FileInputTrigger",
+        "FileInputDropzone",
+        "FileInputList",
+        "FileInputItem",
+        "FileInputItemRemove"
+      ]
+    },
+    {
+      "name": "Input",
+      "slug": "input",
+      "description": "A single-line text field with a clear button and text around it.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/input",
+      "parts": [
+        "Input",
+        "InputGroup",
+        "InputClear"
+      ]
+    },
+    {
+      "name": "Label",
+      "slug": "label",
+      "description": "Name any control with a label, and let a press on the label reach it.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/label",
+      "parts": [
+        "Label"
+      ]
+    },
+    {
+      "name": "Listbox",
+      "slug": "listbox",
+      "description": "An always-visible list to choose one option from, or several with multiple.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/listbox",
+      "parts": [
+        "Listbox",
+        "ListboxItem",
+        "ListboxItemIndicator",
+        "ListboxItemIcon",
+        "ListboxGroup",
+        "ListboxGroupLabel",
+        "ListboxSeparator"
+      ]
+    },
+    {
+      "name": "Number Input",
+      "slug": "number-input",
+      "description": "A numeric field with step buttons, keyboard stepping, locale formatting and a drag-to-scrub label.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/number-input",
+      "parts": [
+        "NumberInput",
+        "NumberInputGroup",
+        "NumberInputControl",
+        "NumberInputDecrement",
+        "NumberInputIncrement",
+        "NumberInputScrubArea",
+        "NumberInputScrubAreaCursor"
+      ]
+    },
+    {
+      "name": "OTP Input",
+      "slug": "otp-input",
+      "description": "Enter a one-time code with support for pasting, autofill, and native form validation.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/otp-input",
+      "parts": [
+        "OTPInput",
+        "OTPInputGroup",
+        "OTPInputSlot",
+        "OTPInputSeparator"
+      ]
+    },
+    {
+      "name": "Password Input",
+      "slug": "password-input",
+      "description": "A password field with a reveal toggle that keeps the caret, offers the right password to managers and hides again on submit.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/password-input",
+      "parts": [
+        "PasswordInput",
+        "PasswordInputControl",
+        "PasswordInputToggle"
+      ]
+    },
+    {
+      "name": "Radio",
+      "slug": "radio",
+      "description": "Choose one option from a short list, with arrow keys and a single tab stop.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/radio",
+      "parts": [
+        "RadioGroup",
+        "Radio",
+        "RadioIndicator"
+      ]
+    },
+    {
+      "name": "Rating",
+      "slug": "rating",
+      "description": "Pick a score from a row of stars, whole or half, with a preview as the pointer moves over them.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/rating",
+      "parts": [
+        "Rating",
+        "RatingItem"
+      ]
+    },
+    {
+      "name": "Select",
+      "slug": "select",
+      "description": "Choose one value or several from a popup list, with typeahead, search and groups.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/select",
+      "parts": [
+        "Select",
+        "SelectLabel",
+        "SelectTrigger",
+        "SelectValue",
+        "SelectValueIcon",
+        "SelectContent",
+        "SelectList",
+        "SelectItem",
+        "SelectItemText",
+        "SelectItemIndicator",
+        "SelectItemIcon",
+        "SelectGroup",
+        "SelectGroupLabel",
+        "SelectSeparator",
+        "SelectInput",
+        "SelectEmpty",
+        "SelectStatus",
+        "SelectSelectAll",
+        "SelectClear",
+        "SelectArrow"
+      ]
+    },
+    {
+      "name": "Slider",
+      "slug": "slider",
+      "description": "Adjust a number or a range with draggable thumbs and keyboard controls.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/slider",
+      "parts": [
+        "Slider",
+        "SliderControl",
+        "SliderTrack",
+        "SliderIndicator",
+        "SliderThumb",
+        "SliderValue"
+      ]
+    },
+    {
+      "name": "Switch",
+      "slug": "switch",
+      "description": "Turn a setting on or off, with a thumb that slides to show its state.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/switch",
+      "parts": [
+        "Switch",
+        "SwitchThumb"
+      ]
+    },
+    {
+      "name": "Textarea",
+      "slug": "textarea",
+      "description": "A multi-line text field that can grow with its text and submit from the keyboard.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/textarea",
+      "parts": [
+        "Textarea"
+      ]
+    },
+    {
+      "name": "Toggle",
+      "slug": "toggle",
+      "description": "A button that stays pressed, alone or in a group with arrow-key navigation.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/toggle",
+      "parts": [
+        "Toggle",
+        "ToggleIcon",
+        "ToggleGroup"
+      ]
+    },
+    {
+      "name": "Token Input",
+      "slug": "token-input",
+      "description": "Mix editable text with tokens for files, people, tags, and other references.",
+      "category": "Forms",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/token-input",
+      "parts": [
+        "TokenInput",
+        "TokenInputEditor",
+        "TokenInputToken",
+        "TokenInputTokenRemove"
+      ]
+    },
+    {
+      "name": "Calendar",
+      "slug": "calendar",
+      "description": "A month grid for choosing one date, several dates, or a range.",
+      "category": "Date & Time",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/calendar",
+      "parts": [
+        "Calendar",
+        "CalendarPrevious",
+        "CalendarHeading",
+        "CalendarNext",
+        "CalendarMonthSelect",
+        "CalendarYearSelect",
+        "CalendarGrid",
+        "CalendarWeekdays",
+        "CalendarWeekday",
+        "CalendarWeeks",
+        "CalendarDay"
+      ]
+    },
+    {
+      "name": "Date Input",
+      "slug": "date-input",
+      "description": "A segmented field for typing a date one part at a time, in the locale's order.",
+      "category": "Date & Time",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/date-input",
+      "parts": [
+        "DateInput",
+        "DateInputSegment"
+      ]
+    },
+    {
+      "name": "Date Picker",
+      "slug": "date-picker",
+      "description": "Type a date or choose one from a calendar popup, with ranges and forms.",
+      "category": "Date & Time",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/date-picker",
+      "parts": [
+        "DatePicker",
+        "DatePickerInput",
+        "DatePickerTrigger",
+        "DatePickerContent",
+        "DatePickerHint",
+        "DatePickerClear",
+        "DatePickerPreset",
+        "CalendarPrevious",
+        "CalendarHeading",
+        "CalendarNext",
+        "CalendarMonthSelect",
+        "CalendarYearSelect",
+        "CalendarGrid",
+        "CalendarWeekdays",
+        "CalendarWeekday",
+        "CalendarWeeks",
+        "CalendarDay"
+      ]
+    },
+    {
+      "name": "Time Input",
+      "slug": "time-input",
+      "description": "A segmented field for typing a time, on the clock your user's language uses.",
+      "category": "Date & Time",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/time-input",
+      "parts": [
+        "TimeInput",
+        "TimeInputSegment"
+      ]
+    },
+    {
+      "name": "Avatar",
+      "slug": "avatar",
+      "description": "An image with initials or an icon while it loads, and after it fails.",
+      "category": "Data Display",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/avatar",
+      "parts": [
+        "Avatar",
+        "AvatarImage",
+        "AvatarFallback"
+      ]
+    },
+    {
+      "name": "Meter",
+      "slug": "meter",
+      "description": "Show a measurement within a known range, such as storage used or an account quota.",
+      "category": "Data Display",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/meter",
+      "parts": [
+        "Meter",
+        "MeterLabel",
+        "MeterValue",
+        "MeterTrack",
+        "MeterIndicator"
+      ]
+    },
+    {
+      "name": "Timeline",
+      "slug": "timeline",
+      "description": "Dated events in order, with one tab stop and arrow keys between them.",
+      "category": "Data Display",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/timeline",
+      "parts": [
+        "Timeline",
+        "TimelineItem",
+        "TimelineMarker",
+        "TimelineConnector",
+        "TimelineTitle",
+        "TimelineTime",
+        "TimelineDescription"
+      ]
+    },
+    {
+      "name": "Tree",
+      "slug": "tree",
+      "description": "A hierarchy of items that expand, collapse, select and check.",
+      "category": "Data Display",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/tree",
+      "parts": [
+        "Tree",
+        "TreeItems",
+        "TreeItem",
+        "TreeGroup",
+        "TreeItemLabel",
+        "TreeItemIndicator",
+        "TreeItemCheckbox"
+      ]
+    },
+    {
+      "name": "Progress",
+      "slug": "progress",
+      "description": "Show how far a task has come, or that it's under way when the amount is unknown.",
+      "category": "Feedback",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/progress",
+      "parts": [
+        "Progress",
+        "ProgressLabel",
+        "ProgressValue",
+        "ProgressTrack",
+        "ProgressIndicator"
+      ]
+    },
+    {
+      "name": "Toast",
+      "slug": "toast",
+      "description": "Brief messages that stack in a corner, announce themselves, and can be swiped, acted on or dismissed.",
+      "category": "Feedback",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/toast",
+      "parts": [
+        "ToastRegion",
+        "Toast",
+        "ToastTitle",
+        "ToastDescription",
+        "ToastAction",
+        "ToastClose"
+      ]
+    },
+    {
+      "name": "Alert Dialog",
+      "slug": "alert-dialog",
+      "description": "A modal question that waits for an answer before an action continues.",
+      "category": "Overlay",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/alert-dialog",
+      "parts": [
+        "AlertDialog",
+        "AlertDialogTrigger",
+        "AlertDialogBackdrop",
+        "AlertDialogContent",
+        "AlertDialogTitle",
+        "AlertDialogDescription",
+        "AlertDialogCancel",
+        "AlertDialogAction",
+        "AlertDialogClose",
+        "AlertDialogShortcut"
+      ]
+    },
+    {
+      "name": "Command",
+      "slug": "command",
+      "description": "A search field over an always-open list of commands, with keyboard navigation, pages and shortcuts.",
+      "category": "Overlay",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/command",
+      "parts": [
+        "Command",
+        "CommandInput",
+        "CommandList",
+        "CommandGroup",
+        "CommandGroupLabel",
+        "CommandItem",
+        "CommandItemIcon",
+        "CommandItemText",
+        "CommandShortcut",
+        "CommandSeparator",
+        "CommandEmpty",
+        "CommandStatus",
+        "CommandPage"
+      ]
+    },
+    {
+      "name": "Dialog",
+      "slug": "dialog",
+      "description": "A window over the page that asks for the user's attention.",
+      "category": "Overlay",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/dialog",
+      "parts": [
+        "Dialog",
+        "DialogTrigger",
+        "DialogBackdrop",
+        "DialogContent",
+        "DialogTitle",
+        "DialogDescription",
+        "DialogClose"
+      ]
+    },
+    {
+      "name": "Drawer",
+      "slug": "drawer",
+      "description": "A sheet that slides in from an edge and can rest at several heights.",
+      "category": "Overlay",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/drawer",
+      "parts": [
+        "Drawer",
+        "DrawerTrigger",
+        "DrawerBackdrop",
+        "DrawerContent",
+        "DrawerHandle",
+        "DrawerTitle",
+        "DrawerDescription",
+        "DrawerClose",
+        "DrawerShortcut",
+        "DrawerOutlet"
+      ]
+    },
+    {
+      "name": "Hover Card",
+      "slug": "hover-card",
+      "description": "A preview of what a link points to, shown when the pointer rests on it or keyboard focus stays on it.",
+      "category": "Overlay",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/hover-card",
+      "parts": [
+        "HoverCard",
+        "HoverCardTrigger",
+        "HoverCardContent",
+        "HoverCardArrow"
+      ]
+    },
+    {
+      "name": "Popover",
+      "slug": "popover",
+      "description": "Rich content in a floating panel, opened from a button and anchored to it.",
+      "category": "Overlay",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/popover",
+      "parts": [
+        "Popover",
+        "PopoverTrigger",
+        "PopoverContent",
+        "PopoverArrow",
+        "PopoverTitle",
+        "PopoverDescription",
+        "PopoverClose",
+        "PopoverShortcut"
+      ]
+    },
+    {
+      "name": "Tooltip",
+      "slug": "tooltip",
+      "description": "A short label or hint that appears on hover or keyboard focus.",
+      "category": "Overlay",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/tooltip",
+      "parts": [
+        "Tooltip",
+        "TooltipTrigger",
+        "TooltipContent",
+        "TooltipArrow",
+        "TooltipShortcut"
+      ]
+    },
+    {
+      "name": "Accordion",
+      "slug": "accordion",
+      "description": "Show and hide sections of content from their headings.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/accordion",
+      "parts": [
+        "Accordion",
+        "AccordionItem",
+        "AccordionHeader",
+        "AccordionTrigger",
+        "AccordionPanel"
+      ]
+    },
+    {
+      "name": "Menu",
+      "slug": "menu",
+      "description": "Choose actions and settings from a button or a right-click.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/menu",
+      "parts": [
+        "Menu",
+        "MenuTrigger",
+        "MenuContextTrigger",
+        "MenuContent",
+        "MenuItem",
+        "MenuCheckboxItem",
+        "MenuRadioGroup",
+        "MenuRadioItem",
+        "MenuItemIndicator",
+        "MenuItemIcon",
+        "MenuGroup",
+        "MenuGroupLabel",
+        "MenuSeparator",
+        "MenuShortcut",
+        "MenuSub",
+        "MenuSubTrigger",
+        "MenuSubContent",
+        "MenuItems"
+      ]
+    },
+    {
+      "name": "Menubar",
+      "slug": "menubar",
+      "description": "A row of application menus with one tab stop and arrow keys between them.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/menubar",
+      "parts": [
+        "Menubar"
+      ]
+    },
+    {
+      "name": "Navigation Menu",
+      "slug": "navigation-menu",
+      "description": "A site navigation landmark whose triggers reveal panels of links.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/navigation-menu",
+      "parts": [
+        "NavigationMenu",
+        "NavigationMenuList",
+        "NavigationMenuItem",
+        "NavigationMenuTrigger",
+        "NavigationMenuContent",
+        "NavigationMenuLink",
+        "NavigationMenuLinkIcon",
+        "NavigationMenuViewport",
+        "NavigationMenuIndicator"
+      ]
+    },
+    {
+      "name": "Pagination",
+      "slug": "pagination",
+      "description": "Navigate pages with buttons, links, or your router.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/pagination",
+      "parts": [
+        "Pagination",
+        "PaginationList",
+        "PaginationItem",
+        "PaginationLink",
+        "PaginationPrevious",
+        "PaginationNext",
+        "PaginationFirst",
+        "PaginationLast",
+        "PaginationEllipsis"
+      ]
+    },
+    {
+      "name": "Segmented Control",
+      "slug": "segmented-control",
+      "description": "Pick one of a few options, with an indicator that slides to the choice.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/segmented-control",
+      "parts": [
+        "SegmentedControl",
+        "SegmentedControlItem",
+        "SegmentedControlIndicator"
+      ]
+    },
+    {
+      "name": "Tabs",
+      "slug": "tabs",
+      "description": "Layered sections of content, one shown at a time.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/tabs",
+      "parts": [
+        "Tabs",
+        "TabsList",
+        "TabsTab",
+        "TabsPanel",
+        "TabsIndicator",
+        "TabsTabIcon"
+      ]
+    },
+    {
+      "name": "Toolbar",
+      "slug": "toolbar",
+      "description": "Group buttons, links and fields behind one tab stop with arrow-key navigation.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/toolbar",
+      "parts": [
+        "Toolbar",
+        "ToolbarButton",
+        "ToolbarGroup",
+        "ToolbarInput",
+        "ToolbarLink",
+        "ToolbarSeparator"
+      ]
+    },
+    {
+      "name": "Trigger Menu",
+      "slug": "trigger-menu",
+      "description": "Suggestions at the caret when you type a trigger like @, / or #.",
+      "category": "Navigation",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/trigger-menu",
+      "parts": [
+        "TriggerMenu",
+        "TriggerMenuInput",
+        "TriggerMenuContent",
+        "TriggerMenuList",
+        "TriggerMenuItem",
+        "TriggerMenuItemIcon",
+        "TriggerMenuGroup",
+        "TriggerMenuGroupLabel",
+        "TriggerMenuSeparator",
+        "TriggerMenuEmpty",
+        "TriggerMenuStatus",
+        "TriggerMenuHint",
+        "TriggerMenuItems"
+      ]
+    },
+    {
+      "name": "Collapsible",
+      "slug": "collapsible",
+      "description": "Show and hide one panel of content, and animate its height.",
+      "category": "Layout",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/collapsible",
+      "parts": [
+        "Collapsible",
+        "CollapsibleTrigger",
+        "CollapsiblePanel"
+      ]
+    },
+    {
+      "name": "Resizable",
+      "slug": "resizable",
+      "description": "Panel layouts you can drag, key or collapse to resize.",
+      "category": "Layout",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/resizable",
+      "parts": [
+        "Resizable",
+        "ResizablePanel",
+        "ResizableHandle"
+      ]
+    },
+    {
+      "name": "Scroll Area",
+      "slug": "scroll-area",
+      "description": "A scrolling region with styled scrollbars, edge state and follow-to-end.",
+      "category": "Layout",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/scroll-area",
+      "parts": [
+        "ScrollArea",
+        "ScrollAreaViewport",
+        "ScrollAreaContent",
+        "ScrollAreaScrollbar",
+        "ScrollAreaThumb",
+        "ScrollAreaCorner",
+        "ScrollAreaScrollToEnd"
+      ]
+    },
+    {
+      "name": "Separator",
+      "slug": "separator",
+      "description": "Divide groups of content with a horizontal or vertical line.",
+      "category": "Layout",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/separator",
+      "parts": [
+        "Separator"
+      ]
+    },
+    {
+      "name": "Waterfall",
+      "slug": "waterfall",
+      "description": "A trace's spans as bars on a shared time axis, in a treegrid you can walk.",
+      "category": "Layout",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/waterfall",
+      "parts": [
+        "Waterfall",
+        "WaterfallHeaderRow",
+        "WaterfallColumnHeader",
+        "WaterfallAxis",
+        "WaterfallTick",
+        "WaterfallMark",
+        "WaterfallRow",
+        "WaterfallRowHeader",
+        "WaterfallIndicator",
+        "WaterfallCell",
+        "WaterfallBar"
+      ]
+    },
+    {
+      "name": "Carousel",
+      "slug": "carousel",
+      "description": "Page through slides with native scrolling, arrow keys and optional rotation.",
+      "category": "Media",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/carousel",
+      "parts": [
+        "Carousel",
+        "CarouselViewport",
+        "CarouselContent",
+        "CarouselItem",
+        "CarouselPrevious",
+        "CarouselNext",
+        "CarouselIndicatorGroup",
+        "CarouselIndicator",
+        "CarouselPlayToggle"
+      ]
+    },
+    {
+      "name": "Image Cropper",
+      "slug": "image-cropper",
+      "description": "Choose the part of an image to keep by moving a selection, or panning and zooming under a still one.",
+      "category": "Media",
+      "status": "stable",
+      "entry": "@ui-sdk/svelte/image-cropper",
+      "parts": [
+        "ImageCropper",
+        "ImageCropperViewport",
+        "ImageCropperImage",
+        "ImageCropperSelection",
+        "ImageCropperGrid",
+        "ImageCropperHandle",
+        "ImageCropperZoom",
+        "ImageCropperRotate",
+        "ImageCropperFlip"
+      ]
+    }
+  ]
+}

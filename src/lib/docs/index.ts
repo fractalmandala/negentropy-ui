@@ -1,0 +1,5 @@
+export { default as CodeBlock } from "./CodeBlock.svelte"
+export { default as Demo } from "./Demo.svelte"
+export { default as PageHeader } from "./PageHeader.svelte"
+export { default as PropsTable, type PropRow } from "./PropsTable.svelte"
+export { default as Section } from "./Section.svelte"

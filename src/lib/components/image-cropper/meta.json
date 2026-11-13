@@ -1,0 +1,19 @@
+{
+  "name": "Image Cropper",
+  "slug": "image-cropper",
+  "description": "Choose the part of an image to keep by moving a selection, or panning and zooming under a still one.",
+  "category": "Media",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/image-cropper",
+  "parts": [
+    "ImageCropper",
+    "ImageCropperViewport",
+    "ImageCropperImage",
+    "ImageCropperSelection",
+    "ImageCropperGrid",
+    "ImageCropperHandle",
+    "ImageCropperZoom",
+    "ImageCropperRotate",
+    "ImageCropperFlip"
+  ]
+}

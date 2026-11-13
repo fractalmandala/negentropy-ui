@@ -1,0 +1,9 @@
+{
+  "name": "Rating",
+  "slug": "rating",
+  "description": "Pick a score from a row of stars, whole or half, with a preview as the pointer moves over them.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/rating",
+  "parts": ["Rating", "RatingItem"]
+}

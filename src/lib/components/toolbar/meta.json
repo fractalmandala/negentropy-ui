@@ -1,0 +1,16 @@
+{
+  "name": "Toolbar",
+  "slug": "toolbar",
+  "description": "Group buttons, links and fields behind one tab stop with arrow-key navigation.",
+  "category": "Navigation",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/toolbar",
+  "parts": [
+    "Toolbar",
+    "ToolbarButton",
+    "ToolbarGroup",
+    "ToolbarInput",
+    "ToolbarLink",
+    "ToolbarSeparator"
+  ]
+}

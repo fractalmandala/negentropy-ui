@@ -1,0 +1,17 @@
+{
+  "name": "Listbox",
+  "slug": "listbox",
+  "description": "An always-visible list to choose one option from, or several with multiple.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/listbox",
+  "parts": [
+    "Listbox",
+    "ListboxItem",
+    "ListboxItemIndicator",
+    "ListboxItemIcon",
+    "ListboxGroup",
+    "ListboxGroupLabel",
+    "ListboxSeparator"
+  ]
+}

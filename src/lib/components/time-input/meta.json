@@ -1,0 +1,9 @@
+{
+  "name": "Time Input",
+  "slug": "time-input",
+  "description": "A segmented field for typing a time, on the clock your user's language uses.",
+  "category": "Date & Time",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/time-input",
+  "parts": ["TimeInput", "TimeInputSegment"]
+}

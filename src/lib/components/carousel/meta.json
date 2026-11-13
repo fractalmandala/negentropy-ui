@@ -1,0 +1,19 @@
+{
+  "name": "Carousel",
+  "slug": "carousel",
+  "description": "Page through slides with native scrolling, arrow keys and optional rotation.",
+  "category": "Media",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/carousel",
+  "parts": [
+    "Carousel",
+    "CarouselViewport",
+    "CarouselContent",
+    "CarouselItem",
+    "CarouselPrevious",
+    "CarouselNext",
+    "CarouselIndicatorGroup",
+    "CarouselIndicator",
+    "CarouselPlayToggle"
+  ]
+}

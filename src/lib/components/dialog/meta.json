@@ -1,0 +1,9 @@
+{
+  "name": "Dialog",
+  "slug": "dialog",
+  "description": "A window over the page that asks for the user's attention.",
+  "category": "Overlay",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/dialog",
+  "parts": ["Dialog", "DialogTrigger", "DialogBackdrop", "DialogContent", "DialogTitle", "DialogDescription", "DialogClose"]
+}

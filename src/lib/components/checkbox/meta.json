@@ -1,0 +1,9 @@
+{
+  "name": "Checkbox",
+  "slug": "checkbox",
+  "description": "Choose one or more options, on their own or as a group with a select-all parent.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/checkbox",
+  "parts": ["Checkbox", "CheckboxIndicator", "CheckboxGroup"]
+}

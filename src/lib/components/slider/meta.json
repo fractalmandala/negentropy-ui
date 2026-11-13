@@ -1,0 +1,9 @@
+{
+  "name": "Slider",
+  "slug": "slider",
+  "description": "Adjust a number or a range with draggable thumbs and keyboard controls.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/slider",
+  "parts": ["Slider", "SliderControl", "SliderTrack", "SliderIndicator", "SliderThumb", "SliderValue"]
+}

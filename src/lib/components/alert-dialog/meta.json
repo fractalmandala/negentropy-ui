@@ -1,0 +1,9 @@
+{
+  "name": "Alert Dialog",
+  "slug": "alert-dialog",
+  "description": "A modal question that waits for an answer before an action continues.",
+  "category": "Overlay",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/alert-dialog",
+  "parts": ["AlertDialog", "AlertDialogTrigger", "AlertDialogBackdrop", "AlertDialogContent", "AlertDialogTitle", "AlertDialogDescription", "AlertDialogCancel", "AlertDialogAction", "AlertDialogClose", "AlertDialogShortcut"]
+}

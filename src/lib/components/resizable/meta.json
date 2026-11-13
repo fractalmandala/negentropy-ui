@@ -1,0 +1,9 @@
+{
+  "name": "Resizable",
+  "slug": "resizable",
+  "description": "Panel layouts you can drag, key or collapse to resize.",
+  "category": "Layout",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/resizable",
+  "parts": ["Resizable", "ResizablePanel", "ResizableHandle"]
+}

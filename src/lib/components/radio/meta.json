@@ -1,0 +1,9 @@
+{
+  "name": "Radio",
+  "slug": "radio",
+  "description": "Choose one option from a short list, with arrow keys and a single tab stop.",
+  "category": "Forms",
+  "status": "stable",
+  "entry": "@ui-sdk/svelte/radio",
+  "parts": ["RadioGroup", "Radio", "RadioIndicator"]
+}
